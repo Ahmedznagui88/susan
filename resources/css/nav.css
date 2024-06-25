@@ -1,0 +1,30 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-toggler{
+    border-radius: 2px;
+}
+
+.navbar-nav{
+    font-family: 'Vegawanty';
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.logo{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: baseline;
+}
+

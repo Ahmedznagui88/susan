@@ -1,0 +1,35 @@
+.section-products{
+    height: 200vh;
+    background: #ffffff;
+    z-index: 2;
+    position: absolute;
+    top: 100vh;
+}
+.title-section{
+    font-family: 'La Mango';
+    font-weight: 100;
+    text-align: center;
+    font-size: 130px;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.row-section{
+    justify-content: center;
+}
+
+.div-img{
+    display: flex;
+    justify-content: center;
+}
+
+.first-img{
+    width: 330px;
+}
+
+.div-paragraph{
+    max-width: 400px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
