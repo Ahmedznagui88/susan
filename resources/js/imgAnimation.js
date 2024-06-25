@@ -1,4 +1,4 @@
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+/* import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -27,3 +27,4 @@ tmln.to(".first-img, .div-paragraph", {
     delay: 3,
     stagger: 2,
 });
+ */
