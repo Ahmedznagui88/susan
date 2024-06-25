@@ -2,38 +2,24 @@ import { gsap } from "gsap";
     
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-/* The following plugin is a Club GSAP perk */
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 
 
 gsap.registerPlugin(ScrollTrigger,ScrollSmoother);
 
 const smoother = ScrollSmoother.create({
-    smooth: 2,
+    smooth:1,
+    effects: true,
 });
 
-/* let tmln = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".first-img, .div-paragraph",
-        start: "top 580px",
-        end: "top 10",
-        smooth: 5,
-        opacity: 0,
-        scrub: 2,
-    },
-});
+document.querySelector('[data-target="servizi" ]').addEventListener('click', 
+    function(){
+const id = `#${this.dataset.target}`
 
-tmln.from(".first-img, .div-paragraph", {
-    y: 35,
-    opacity: 0,
-    duration: 5,
-});
-
-tmln.to(".first-img, .div-paragraph", {
-    ease: 'power1out',
-    duration: 10,
-    y: -40,
-    opacity: 1,
-    delay: 3,
-    stagger: 2,
-}); */
+       gsap.to(smooth, {
+        scrollTop: smoother.offset(id),
+        duration: 1,
+        ease: "power4"
+       })
+    } 
+)
