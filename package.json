@@ -12,6 +12,6 @@
     },
     "dependencies": {
         "bootstrap": "^5.3.3",
-        "gsap": "^3.12.5"
+        "gsap": "npm:@gsap/shockingly@^3.12.5"
     }
 }

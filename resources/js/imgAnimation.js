@@ -1,8 +1,18 @@
-/* import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
-gsap.registerPlugin(ScrollTrigger);
+    
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-let tmln = gsap.timeline({
+/* The following plugin is a Club GSAP perk */
+import { ScrollSmoother } from "gsap/ScrollSmoother";
+
+
+gsap.registerPlugin(ScrollTrigger,ScrollSmoother);
+
+const smoother = ScrollSmoother.create({
+    smooth: 2,
+});
+
+/* let tmln = gsap.timeline({
     scrollTrigger: {
         trigger: ".first-img, .div-paragraph",
         start: "top 580px",
@@ -26,5 +36,4 @@ tmln.to(".first-img, .div-paragraph", {
     opacity: 1,
     delay: 3,
     stagger: 2,
-});
- */
+}); */

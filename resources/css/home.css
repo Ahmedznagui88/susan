@@ -27,8 +27,8 @@ button{
   background-position-y: 550px;
   background-attachment: fixed;
   background-size: 600px;
-  position: fixed;
-  z-index: 1;
+/*   position: fixed;
+  z-index: 1; */
 }
 
 .row-main{
