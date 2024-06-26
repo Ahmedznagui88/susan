@@ -10,16 +10,6 @@ gsap.registerPlugin(ScrollTrigger,ScrollSmoother);
 const smoother = ScrollSmoother.create({
     smooth:1,
     effects: true,
+    smoothTouch:0.1,
 });
 
-document.querySelector('[data-target="servizi" ]').addEventListener('click', 
-    function(){
-const id = `#${this.dataset.target}`
-
-       gsap.to(smooth, {
-        scrollTop: smoother.offset(id),
-        duration: 1,
-        ease: "power4"
-       })
-    } 
-)

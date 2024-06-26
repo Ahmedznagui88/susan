@@ -16,6 +16,7 @@
 
 .row-section{
     justify-content: center;
+    overflow: hidden;
 }
 
 .div-img{
