@@ -18,7 +18,6 @@
             </div>
         </div>
     </div>
-    <script src="https://unpkg.com/split-type"></script>
 </body>
 
 </html>

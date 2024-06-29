@@ -10,6 +10,7 @@ gsap.registerPlugin(ScrollTrigger,ScrollSmoother);
 const smoother = ScrollSmoother.create({
     smooth:1,
     effects: true,
-    smoothTouch:0.1,
+    onUpdate: (self) => console.log("progress", self.progress)
+
 });
 
