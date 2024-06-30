@@ -22,7 +22,7 @@ button{
   margin-top: 70px;
   height: 90vh;
   background-image: url(../../public/media/svg/Vector\ 34.png);
-  object-fit: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 550px;
   background-attachment: fixed;
@@ -35,15 +35,15 @@ button{
   flex-direction: row-reverse;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
+.div-img-header{
 
-.image-header{
-  width: 600px;
-  object-fit: contain;
-
+  height: 650px;
+  background-image: url(../../public/media/img/beauty.avif);
+  background-size: cover;
 }
+
 
 .title-header{
   font-size: 150px;
@@ -54,9 +54,8 @@ button{
 
 
 .text-header{
- 
   font-weight: 100;
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'Gojali';
 }
 
@@ -90,8 +89,8 @@ button{
 
 
 body {
-  --sb-track-color: #232E33;
-  --sb-thumb-color: #eff1b8;
+  --sb-track-color: #d5d5d5;
+  --sb-thumb-color: #f9e6c7;
   --sb-size: 14px;
 }
 

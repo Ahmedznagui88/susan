@@ -4,6 +4,12 @@
 /*     z-index: 2;
     position: absolute;
     top: 100vh; */
+    background-image: url(../../public/media/svg/Vector\ 35.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 150px;
+  background-size: 900px;
+  background-attachment: fixed;
 }
 .title-section{
     font-family: 'La Mango';
