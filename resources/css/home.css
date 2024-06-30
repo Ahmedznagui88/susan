@@ -24,8 +24,7 @@ button{
   background-image: url(../../public/media/svg/Vector\ 34.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 550px;
-  background-attachment: fixed;
+  background-position-y: 470px;
   background-size: 600px;
 /*   position: fixed;
   z-index: 1; */
@@ -42,6 +41,7 @@ button{
   height: 650px;
   background-image: url(../../public/media/img/beauty.avif);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 

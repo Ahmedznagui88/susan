@@ -17,16 +17,19 @@
                     <img data-speed="0.8" class="first-img img-fluid" src="./media/img/brown girl.avif" alt="">
                 </div>
             </div>
-            <div class="row row-section mt-5">
+            <div class="row row-section-two mt-5" >
                 <div data-speed="0.7"   class="col-md-4 div-paragraph">
                     <h6 class="subtitle-section">Nail Art Personalizzata</h6>
                      <p  class="text-section">Creiamo disegni unici e personalizzati per esprimere al meglio il tuo stile e la tua personalità</p>
                 </div>
-                <div   class="col-md-4 div-img">
-                    <img data-speed="0.8" class="first-img img-fluid" src="./media/img/person.avif" alt="">
+
+
+    
+                <div class="col-md-4 div-img">
+                    <img data-speed="0.8" class="first-img img-fluid mt-5" src="./media/img/person.avif" alt="">
                 </div>
                  <div class="col-md-4 div-img">
-                    <img data-speed="0.5" class="first-img img-fluid" src="./media/img/flowers.jpg" alt="">
+                    <img data-speed="0.5" class="first-img img-fluid mb-3" src="./media/img/flowers.jpg" alt="">
                 </div>
             </div>
         </section>

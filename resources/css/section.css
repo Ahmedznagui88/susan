@@ -10,6 +10,7 @@
   background-position: 150px;
   background-size: 900px;
   background-attachment: fixed;
+  z-index: 2;
 }
 .title-section{
     font-family: 'La Mango';
@@ -23,13 +24,27 @@
 .row-section{
     justify-content: center;
     overflow: hidden;
+    background-image: url(../../public/media/img/Rectangle\ 100.png);
+    background-size: 700px;
+    background-position: 800px;
+    background-repeat: no-repeat;
+    
+}
+.row-section-two{
+    justify-content: center;
+    overflow: hidden;
+    background-image: url(../../public/media/img/Rectangle\ 100.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
     
 }
 
 .div-img{
     display: flex;
     justify-content: center;
-    
+    background-image: url(../../public/media/img/Group\ 58.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
 }
 
 .first-img{
@@ -50,4 +65,12 @@
     font-family: 'La Mango';
   font-style: italic;
   font-size: 40px;
+}
+
+.div-imgs{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 800px;
+
 }
