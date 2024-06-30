@@ -1,0 +1,52 @@
+.section-product{
+    background: #ffffff;
+    border: solid red;
+    height: 40vh;
+}
+
+.wrapper-2{
+    width: 100vw;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+
+@keyframes scrollright{
+    to{
+        left: -400px;
+    }
+}
+.title-section-product{
+    font-family: 'La Mango';
+    font-weight: 100;
+    font-size: 100px;
+    font-style: italic;
+    position: absolute;
+    left: 100%;
+    animation-name:scrollright ;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.item1-product{
+    animation-delay: calc(30s / 6 * (6 - 1) * -1);
+}
+.item2-product{
+    animation-delay: calc(30s / 6 * (6 - 2) * -1);
+}
+.item3-product{
+    animation-delay: calc(30s / 6 * (6 - 3) * -1);
+}
+.item4-product{
+    animation-delay: calc(30s / 6 * (6 - 4) * -1);
+}
+.item5-product{
+    animation-delay: calc(30s / 6 * (6 - 5) * -1);
+}
+.item6-product{
+    animation-delay: calc(30s / 6 * (6 - 6) * -1);
+} 

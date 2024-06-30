@@ -1,4 +1,5 @@
 <x-layout>
     <x-header />
-    <x-section />
+    <x-servizi />
+    <x-product />
 </x-layout>

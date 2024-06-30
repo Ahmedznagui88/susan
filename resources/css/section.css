@@ -1,9 +1,6 @@
 .section-products{
-    height: 200vh;
+    height: auto;
     background: #ffffff;
-/*     z-index: 2;
-    position: absolute;
-    top: 100vh; */
     background-image: url(../../public/media/svg/Vector\ 35.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,7 +21,7 @@
 
 @keyframes scrollleft{
     to{
-        left: -400px;
+        right: -400px;
     }
 }
 .title-section{
@@ -33,7 +30,7 @@
     font-size: 100px;
     font-style: italic;
     position: absolute;
-    left: 100%;
+    right: 100%;
     animation-name:scrollleft ;
     animation-duration: 30s;
     animation-timing-function: linear;

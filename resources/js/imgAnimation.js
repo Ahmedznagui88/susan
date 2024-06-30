@@ -17,5 +17,5 @@ const smoother = ScrollSmoother.create({
 let jump = document.querySelector(".servizi");
 
 jump.addEventListener("click", (e) => {
-    smoother.scrollTo(".section-products", true, "center 690");
+    smoother.scrollTo(".section-products", true, "center 750");
 });

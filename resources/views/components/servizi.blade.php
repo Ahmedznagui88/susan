@@ -2,12 +2,12 @@
         <section class="container-fluid section-products">
             <div  class="row">
                 <div class="col-12 wrapper">
-                    <h2 class="title-section item1"> Servizi -</h2>
-                    <h2 class="title-section item2"> Servizi -</h2>
-                    <h2 class="title-section item3"> Servizi -</h2>
-                    <h2 class="title-section item4"> Servizi -</h2>
-                    <h2 class="title-section item5"> Servizi -</h2>
-                    <h2 class="title-section item6"> Servizi -</h2>
+                    <h2 class="title-section item1">Servizi</h2>
+                    <h2 class="title-section item2">Servizi</h2>
+                    <h2 class="title-section item3">Servizi</h2>
+                    <h2 class="title-section item4">Servizi</h2>
+                    <h2 class="title-section item5">Servizi</h2>
+                    <h2 class="title-section item6">Servizi</h2>
                 </div>
             </div>
             <div class="row row-section">
