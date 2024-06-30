@@ -2,10 +2,10 @@
     background: #fcf8fd;
     height: auto;
     padding-bottom: 50px;
-    border-radius: 0 40%;
-    background-image: url(../../public/media/img/nail2.avif);
+/*     border-radius: 0 40%; */
+    background-image: url(../../public/media/img/photo-1560094981-910178d64917.avif);
     background-size: 1450px;
-    background-position: 15px;
+    background-position-y: 1140px;
     background-attachment: fixed;
    /*  display: flex;
     justify-content: center;
@@ -13,12 +13,17 @@
 }
 
 .row-chiSiamo{
-
-   justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
+.text-chiSiamo{
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+}
 .img-who-we-re{
-    width: 400px;
+    width: 600px;
 
 }
 
@@ -27,5 +32,5 @@
     font-weight: 100;
     font-size: 100px;
     font-style: italic;
-    color: #fcf8fd;
+    color: #000000;
 }
