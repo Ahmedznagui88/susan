@@ -1,8 +1,13 @@
 
         <section class="container-fluid section-products">
             <div  class="row">
-                <div class="col-12">
-                    <h2 class="title-section">Servizi</h2>
+                <div class="col-12 wrapper">
+                    <h2 class="title-section item1"> Servizi -</h2>
+                    <h2 class="title-section item2"> Servizi -</h2>
+                    <h2 class="title-section item3"> Servizi -</h2>
+                    <h2 class="title-section item4"> Servizi -</h2>
+                    <h2 class="title-section item5"> Servizi -</h2>
+                    <h2 class="title-section item6"> Servizi -</h2>
                 </div>
             </div>
             <div class="row row-section">
@@ -31,5 +36,5 @@
                  <div class="col-md-4 div-img">
                     <img data-speed="0.5" class="first-img img-fluid mb-3" src="./media/img/flowers.jpg" alt="">
                 </div>
-            </div>
+            </div> 
         </section>
