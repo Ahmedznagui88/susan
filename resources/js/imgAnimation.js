@@ -8,9 +8,14 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 gsap.registerPlugin(ScrollTrigger,ScrollSmoother);
 
 const smoother = ScrollSmoother.create({
-    smooth:1,
+    smooth:2,
     effects: true,
     onUpdate: (self) => console.log("progress", self.progress)
 
 });
 
+let jump = document.querySelector(".servizi");
+
+jump.addEventListener("click", () => {
+    smoother.scrollTo(".section-products", true, "center 670");
+});
