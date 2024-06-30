@@ -2,7 +2,7 @@
     height: auto;
     background-color: rgb(255,231,226);
     background-image: url(../../public/media/svg/Vector\ 35.svg);
-  background-size: cover;
+
   background-repeat: no-repeat;
   background-position: 150px;
   background-size: 900px;
@@ -11,6 +11,7 @@
 }
 
 .wrapper{
+   
     width: 100vw;
     margin-inline: auto;
     position: relative;
@@ -96,7 +97,10 @@
     align-self: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
+
+
 
 .subtitle-section{
     font-family: 'La Mango';

@@ -1,13 +1,31 @@
 .section-product{
-    background: #faf6f6;
-    height: 40vh;
+    background: #fcf8fd;
+    height: auto;
+    padding-bottom: 50px;
+    border-radius: 0 40%;
+    background-image: url(../../public/media/img/nail2.avif);
+    background-size: 1450px;
+    background-position: 15px;
+    background-attachment: fixed;
+   /*  display: flex;
+    justify-content: center;
+    flex-direction: column; */
 }
 
+.row-chiSiamo{
+
+   justify-content: center;
+}
+
+.img-who-we-re{
+    width: 400px;
+
+}
 
 .title-section-product{
     font-family: 'La Mango';
     font-weight: 100;
     font-size: 100px;
     font-style: italic;
-
+    color: #fcf8fd;
 }
