@@ -9,11 +9,24 @@
                 <div   class="col-md-4 div-img">
                     <img data-speed="0.5" class="first-img img-fluid" src="./media/img/beauty asian girl.avif" alt="">
                 </div>
-                <div class="col-md-4 div-paragraph">
-                     <p  data-speed="0.4"  class="text-section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus id nemo itaque sint debitis harum expedita sequi velit quis quae numquam atque culpa asperiores, adipisci dolorem. Dignissimos tenetur ut deserunt?gfhjshdgfjsdhgjshdafkkashjfgbnhdcdhhdvfsd</p>
+                <div data-speed="0.4" class="col-md-4 div-paragraph">
+                    <h6 class="subtitle-section">Ricostruzione Unghie</h6>
+                     <p    class="text-section">Specializzati in ricostruzione unghie con gel e acrilico, per un look duraturo e impeccabile.</p>
                 </div>
                  <div class="col-md-4 div-img">
                     <img data-speed="0.8" class="first-img img-fluid" src="./media/img/brown girl.avif" alt="">
+                </div>
+            </div>
+            <div class="row row-section mt-5">
+                <div data-speed="0.7"   class="col-md-4 div-paragraph">
+                    <h6 class="subtitle-section">Nail Art Personalizzata</h6>
+                     <p  class="text-section">Creiamo disegni unici e personalizzati per esprimere al meglio il tuo stile e la tua personalità</p>
+                </div>
+                <div   class="col-md-4 div-img">
+                    <img data-speed="0.8" class="first-img img-fluid" src="./media/img/person.avif" alt="">
+                </div>
+                 <div class="col-md-4 div-img">
+                    <img data-speed="0.5" class="first-img img-fluid" src="./media/img/flowers.jpg" alt="">
                 </div>
             </div>
         </section>

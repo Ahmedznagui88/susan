@@ -1,7 +1,7 @@
 <main class="container-fluid container-main">
-    <article class="row row-main" style="background: url()">
-        <figure class="col-md-6 figure-header">
-            <img class="image-header" src="/media/img/glass.avif" alt="">
+    <article class="row row-main">
+        <figure class="col-md-6 div-img-header">
+        <img class="image-header" src="/media/img/glass.avif" alt=""> 
         </figure>
 
         <div class="col-md-6 div-header">

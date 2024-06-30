@@ -17,15 +17,19 @@
 .row-section{
     justify-content: center;
     overflow: hidden;
+    
 }
 
 .div-img{
     display: flex;
     justify-content: center;
+    
 }
 
 .first-img{
     width: 330px;
+    object-fit: cover;
+    
 }
 
 .div-paragraph{
@@ -33,4 +37,11 @@
     display: flex;
     align-self: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.subtitle-section{
+    font-family: 'La Mango';
+  font-style: italic;
+  font-size: 40px;
 }
