@@ -5,10 +5,10 @@
         </figure>
 
         <div class="col-md-6 div-header">
-            <h1 class="title-header">Exclusive Nails</h1>
+            <h1 class="title-header">Susan Nail</h1>
             <small class="text-header">Eleva il tuo stile con la perfezione delle nostre creazioni per unghie.</small>
             <button class="btn-header">
-                scopri in nostri prodotti
+                scopri in nostri servizi
             </button>
         </div>
     </article>

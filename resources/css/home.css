@@ -22,12 +22,11 @@ button{
   margin-top: 10px;
   height: 90vh;
   background-image: url(../../public/media/svg/Vector\ 34.png);
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 470px;
   background-size: 600px;
-/*   position: fixed;
-  z-index: 1; */
 }
 
 .row-main{
@@ -41,7 +40,6 @@ button{
   height: 650px;
   background-image: url(../../public/media/img/beauty.avif);
   background-size: cover;
-  background-attachment: fixed;
 }
 
 
@@ -71,7 +69,7 @@ button{
   margin-top: 30px;
   border: solid 0.4px;
   border-radius: 30px;
-  height: 50px;
+  height: 35px;
   width: 230px;
 }
 

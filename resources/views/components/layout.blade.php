@@ -10,11 +10,9 @@
 </head>
 
 <body>
-    <div id="spinner"></div>
-
     <div id="smooth-wrapper">
         <div id="smooth-content">
-            <div id="content" class="min-vh-100">
+            <div class="min-vh-100">
                 <x-navbar />
                 {{ $slot }}
             </div>
