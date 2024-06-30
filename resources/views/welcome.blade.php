@@ -1,5 +1,5 @@
 <x-layout>
     <x-header />
+    <x-chiSiamo />
     <x-servizi />
-    <x-product />
 </x-layout>

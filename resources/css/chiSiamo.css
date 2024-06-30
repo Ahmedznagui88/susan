@@ -1,0 +1,13 @@
+.section-product{
+    background: #faf6f6;
+    height: 40vh;
+}
+
+
+.title-section-product{
+    font-family: 'La Mango';
+    font-weight: 100;
+    font-size: 100px;
+    font-style: italic;
+
+}

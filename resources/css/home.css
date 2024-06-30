@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   background-color: rgb(255,231,226);
-  background-color: #e1e0dd;
+
   font-family: 'Gojali';
   z-index: -1;
 }
@@ -68,7 +68,7 @@ button{
 
 .btn-header{
   background: none;
-  margin-top: 100px;
+  margin-top: 30px;
   border: solid 0.4px;
   border-radius: 30px;
   height: 50px;

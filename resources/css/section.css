@@ -1,6 +1,6 @@
 .section-products{
     height: auto;
-    background: #ffffff;
+    background-color: rgb(255,231,226);
     background-image: url(../../public/media/svg/Vector\ 35.svg);
   background-size: cover;
   background-repeat: no-repeat;
