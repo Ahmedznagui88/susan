@@ -1,30 +1,38 @@
 .section-product{
-    background: #fcf8fd;
-    height: auto;
-    padding-bottom: 50px;
-/*     border-radius: 0 40%; */
-    background-image: url(../../public/media/img/photo-1560094981-910178d64917.avif);
-    background-size: 1450px;
-    background-position-y: 1140px;
-    background-attachment: fixed;
-   /*  display: flex;
+    background: #baacac;
+    display: flex;
     justify-content: center;
-    flex-direction: column; */
+    height: 90vh;
+    background-image: url(../../public/media/svg/Group\ 59.png);
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-size: 1000px;
 }
 
 .row-chiSiamo{
-    display: flex;
+    padding: 50px;
+    overflow: hidden;
+    width: 90vw;
     justify-content: center;
 }
 
-.text-chiSiamo{
-    font-weight: 100;
-    font-size: 20px;
-    color: black;
+.div-inner-img{
+    position: relative;
+    
 }
-.img-who-we-re{
-    width: 600px;
 
+.img-who-we-re{
+    width: 340px;
+    
+}
+
+.img-who-we-2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: -140px;
+    top: 140px;
+    z-index: 1;
 }
 
 .title-section-product{

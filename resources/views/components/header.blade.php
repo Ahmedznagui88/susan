@@ -6,7 +6,10 @@
 
         <div class="col-md-6 div-header">
             <h1 class="title-header">Susan Nail</h1>
-            <small class="text-header">Eleva il tuo stile con la perfezione delle nostre creazioni per unghie.</small>
+            <div class="container-text">
+                <p class="text-header">Eleva il tuo stile con la perfezione delle nostre creazioni per unghie.</p>
+
+            </div>
             <button class="btn-header">
                 scopri in nostri servizi
             </button>

@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
-  background-color: rgb(255,231,226);
+  background-color: white;
 
   font-family: 'Gojali';
   z-index: -1;
@@ -42,12 +42,44 @@ button{
   background-size: cover;
 }
 
+.div-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container-title{
+  
+
+
+  display: flex;
+ align-items:flex-end;
+ padding-top: 10px;
+ line-height: 0%;
+
+}
+
+.container-text{
+  height: 70px;
+
+  overflow: hidden;
+  display: flex;
+ align-items:flex-end;
+ padding-top: 10px;
+ line-height: 0%;
+
+}
+
 
 .title-header{
   font-size: 150px;
   font-family: 'La Mango';
   font-style: italic;
   color: rgb(0, 0, 0);
+  
+
 }
 
 
@@ -57,12 +89,10 @@ button{
   font-family: 'Gojali';
 }
 
-.div-header{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
+
+
+
 
 .btn-header{
   background: none;
@@ -73,15 +103,6 @@ button{
   width: 170px;
 }
 
-.line{
-  overflow: hidden;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100% );
-}
-
-.char{
-  transform: translateY(100px);
-  transition: transform .55ms;
-}
 
 
 
