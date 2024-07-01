@@ -10,16 +10,9 @@ const smoother = ScrollSmoother.create({
     smoothTouch:0.1,
 });
 
-let servizi = document.querySelector(".servizi");
-let whoWeAre = document.querySelector(".whoWeAre");
+let jump = document.querySelector(".servizi");
 
-// Aggiungi un listener di evento a entrambi gli elementi
-servizi.addEventListener("click", (e) => {
-    smoother.scrollTo(".section-products", true, "center 600");
+
+jump.addEventListener("click", (e) => {
+    smoother.scrollTo(".section-products", true, "center 900");
 });
-
-whoWeAre.addEventListener("click", (e) => {
-    smoother.scrollTo(".section-product-whoWeAre", true, "center 200");
-});
-
-
