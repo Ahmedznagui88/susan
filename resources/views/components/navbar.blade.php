@@ -6,7 +6,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a data-target="whoWeAre"  class="nav-link" aria-current="page" href="#">Chi Siamo</a>
+            <a data-target="whoWeAre"  class="nav-link" aria-current="page" href="#whoWeAre">Chi Siamo</a>
           </li>
           <li class="nav-item">
             <a data-target="servizi"  class="nav-link active servizi" aria-current="page" href="#servizi" >Servizi</a>
