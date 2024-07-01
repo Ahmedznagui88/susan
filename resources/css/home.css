@@ -29,7 +29,6 @@ button{
 }
 
 .div-img-header{
-
   height: 650px;
   background-image: url(../../public/media/img/beauty.avif);
   background-size: cover;
@@ -88,3 +87,88 @@ body::-webkit-scrollbar-thumb {
                      var(--sb-track-color);
   }
 }
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  .container-main {
+    background-image: url(../../public/media/img/beauty.avif);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center top;
+  } 
+
+  .row-main {
+    flex-direction: column-reverse;
+    align-items: baseline;
+
+  }
+
+  .div-img-header {
+    height: 200px; 
+    background-image: none;
+  }
+
+  .div-header{
+    height: 500px;
+    display: flex;
+    align-items: center;
+  }
+
+  .title-header {
+    font-size: 100px;
+  }
+
+  .text-header {
+    font-size: 18px;
+    text-align: center; 
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 999px){
+  .container-main {
+    background-image: url(../../public/media/img/beauty.avif);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  .row-main {
+    flex-direction: column-reverse;
+    align-items: baseline;
+    
+  }
+
+  .div-img-header {
+    background: none;
+  }
+
+  .div-header{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .title-header {
+    font-size: 120px;
+  }
+
+  .text-header {
+    font-size: 18px;
+    text-align: center; 
+  }
+}
+
+
+ @media screen and (min-width: 1000px){
+  .title-header {
+    font-size: 120px;
+    
+  }
+
+  .text-header {
+    font-size: 18px;
+    text-align: center; 
+  }
+
+} 
