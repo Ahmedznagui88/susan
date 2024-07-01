@@ -8,10 +8,9 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 gsap.registerPlugin(ScrollTrigger,ScrollSmoother);
 
 const smoother = ScrollSmoother.create({
-    smooth:2,
+    smooth:1,
     effects: true,
-    onUpdate: (self) => console.log("progress", self.progress)
-
+    smoothTouch:0.1,
 });
 
 let jump = document.querySelector(".servizi");

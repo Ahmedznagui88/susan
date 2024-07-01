@@ -1,59 +1,51 @@
-
 import { gsap } from "gsap";
 import { SplitText } from "gsap/SplitText";
-gsap.registerPlugin(SplitText) 
+gsap.registerPlugin(SplitText);
 
-let split = new SplitText(".text-header, .title-header", {type:"chars"});
+let split = new SplitText(".text-header, .title-header, .navbar", { type: "chars" });
 let chars = split.chars;
 
-gsap.from(chars, {
-  yPercent: 20,
-  smoothOrigin:true,
-  opacity: 0,
-  duration: 1,
-  ease: "power1.out",
-stagger: 0.1,
-})
+const tl = gsap.timeline();
+tl.pause();
 
-
-/* gsap.from(split.chars, {
-  duration: 1, 
-  y: 100, 
-  smoothOrigin:true,
+tl.fromTo(".div-img-header", {
   opacity: 0,
+  visibility: "hidden",
+  height: 0,
+ 
+}, {
+  opacity: 1,
+  visibility: "visible",
+  duration: 1.5,
   delay: 1,
-  autoAlpha: 0, 
-  stagger: {
-    grid: [9,50],
-    from: "top",
-    axis: "null",
-    amount: .6,
-  },
-
-  duration:.6,
-  ease: 'circ.out',
-}); */
-
-
-
-/* gsap.from(split.chars,{
-  opacity: 0,
-  duration:1,
-  autoAlpha: 0,
-} )
-
-gsap.to(split.chars,{
+  height: 650,
   y: 0,
+  ease: "slow(0.7, 0.7, false)",
+});
+
+tl.call(() => {
+  console.log("call");
+});
+
+tl.fromTo(chars, {
+  yPercent: 50,
+  autoAlpha: 0,
+  opacity: 0,
+  visibility: "hidden",
+}, {
+  yPercent: 0,
+  autoAlpha: 1,
+  opacity: 1,
+  ease: "power1.out",
   stagger: {
-    grid: [1,50],
+    grid: [5, 50],
     from: "top",
     axis: "null",
-    amount: .6,
-    
+    amount: 0.6,
   },
-  duration:.6,
-  ease: 'circ.out',
-  force3D: true
-}); */
+  delay: 1,
+  visibility: "visible",
 
+}, 1);
 
+tl.timeScale(1).play();

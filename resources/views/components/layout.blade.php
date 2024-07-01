@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <!-- Pre-loader spinner -->
+    <div id="spinner"></div>
+
     <div id="smooth-wrapper">
         <div id="smooth-content">
             <div class="min-vh-100">

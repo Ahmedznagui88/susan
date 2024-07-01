@@ -2,7 +2,6 @@ html,
 body {
   margin: 0;
   background-color: white;
-
   font-family: 'Gojali';
   z-index: -1;
 }
@@ -21,12 +20,6 @@ button{
 .container-main{
   margin-top: 10px;
   height: 90vh;
-  background-image: url(../../public/media/svg/Vector\ 34.png);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: 470px;
-  background-size: 600px;
 }
 
 .row-main{
@@ -47,39 +40,13 @@ button{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  padding-top: 10px;
 }
-
-.container-title{
-  
-
-
-  display: flex;
- align-items:flex-end;
- padding-top: 10px;
- line-height: 0%;
-
-}
-
-.container-text{
-  height: 70px;
-
-  overflow: hidden;
-  display: flex;
- align-items:flex-end;
- padding-top: 10px;
- line-height: 0%;
-
-}
-
-
 .title-header{
   font-size: 150px;
   font-family: 'La Mango';
   font-style: italic;
   color: rgb(0, 0, 0);
-  
-
 }
 
 
@@ -87,75 +54,9 @@ button{
   font-weight: 100;
   font-size: 22px;
   font-family: 'Gojali';
+  transform-origin: -100px;
 }
 
 
 
 
-
-
-.btn-header{
-  background: none;
-  margin-top: 30px;
-  border: solid 0.4px;
-  border-radius: 30px;
-  height: 35px;
-  width: 170px;
-}
-
-
-
-
-
-body {
-  --sb-track-color: #d5d5d5;
-  --sb-thumb-color: #f9e6c7;
-  --sb-size: 14px;
-}
-
-body::-webkit-scrollbar {
-  width: var(--sb-size)
-}
-
-body::-webkit-scrollbar-track {
-  background: var(--sb-track-color);
-}
-
-body::-webkit-scrollbar-thumb {
-  background: var(--sb-thumb-color);
-  
-}
-
-@supports not selector(::-webkit-scrollbar) {
-  body {
-    scrollbar-color: var(--sb-thumb-color)
-                     var(--sb-track-color);
-  }
-}
-
-
-
-
-#spinner {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 8px solid #f3f3f3;
-  border-top: 8px solid #ebaf7d;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
-  z-index: 9999;
-}
-
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-#content {
-  display: none;
-}
