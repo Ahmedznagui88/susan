@@ -60,3 +60,31 @@ button{
 
 
 
+
+body {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #8a704a;
+  --sb-size: 8px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}

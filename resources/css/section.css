@@ -2,7 +2,7 @@
     height: auto;
     background-color: rgb(255,231,226);
     background-image: url(../../public/media/svg/Vector\ 35.svg);
-
+    overflow: hidden;
   background-repeat: no-repeat;
   background-position: 150px;
   background-size: 900px;

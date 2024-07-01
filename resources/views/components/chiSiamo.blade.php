@@ -1,4 +1,4 @@
-<div class="container-fluid section-product">
+<div class="container-fluid section-product-whoWeAre">
         <div class="row row-chiSiamo">
             <div class="col-md-4 div-paragraph text-light">
                <h2 class="title-section-product text-light">Siamo, </h2>

@@ -43,9 +43,6 @@ tl.fromTo(chars, {
     axis: "null",
     amount: 0.6,
   },
-  delay: 1,
-  visibility: "visible",
-
-}, 1);
+});
 
 tl.timeScale(1).play();
