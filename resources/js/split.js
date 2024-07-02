@@ -8,7 +8,7 @@ let chars = split.chars;
 const tl = gsap.timeline();
 tl.pause();
 
-tl.fromTo(".div-img-header", {
+/* tl.fromTo(".div-img-header", {
   opacity: 0,
   visibility: "hidden",
   height: 0,
@@ -16,7 +16,7 @@ tl.fromTo(".div-img-header", {
 }, {
   opacity: 1,
   visibility: "visible",
-  duration: 1.5,
+  duration: 0.8,
   delay: 1,
   height: 650,
   y: 0,
@@ -25,13 +25,12 @@ tl.fromTo(".div-img-header", {
 
 tl.call(() => {
   console.log("call");
-});
+}); */
 
 tl.fromTo(chars, {
   yPercent: 50,
   autoAlpha: 0,
   opacity: 0,
-  visibility: "hidden",
 }, {
   yPercent: 0,
   autoAlpha: 1,
@@ -45,4 +44,4 @@ tl.fromTo(chars, {
   },
 });
 
-tl.timeScale(1).play();
+tl.timeScale(0.6).play();

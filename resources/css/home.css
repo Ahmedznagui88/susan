@@ -5,6 +5,9 @@ body {
   font-family: 'Gojali';
   z-index: -1;
 }
+li {
+  list-style-type: none;
+}
 
 a{
     text-decoration: none;
@@ -18,20 +21,23 @@ button{
 
 
 .container-main{
-  margin-top: 10px;
-  height: 90vh;
+  /* margin-top: 10px; */
+  height: 100vh;
+  background-image: url(../../public/media/img/saloon21.png);
+  background-size: cover;
+  background-position-y: 00px;
 }
 
 .row-main{
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
+  height: 500px;
+  justify-content: center;
   align-items: center;
 }
 
 .div-img-header{
   height: 650px;
-  background-image: url(../../public/media/img/beauty.avif);
-  background-size: cover;
+ /*  background-image: url(../../public/media/img/beauty.avif);
+  background-size: cover; */
 }
 
 .div-header{
@@ -40,6 +46,8 @@ button{
   justify-content: center;
   align-items: center;
   padding-top: 10px;
+  background-image: url(../../public/media/img/Rectangle\ 100.png);
+  background-size: fill;
 }
 .title-header{
   font-size: 250px;
@@ -56,7 +64,19 @@ button{
   transform-origin: -100px;
 }
 
+.div-bottom-header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
+.line{
+  background-color: rgb(154, 154, 154);
+  border-radius: 10px;
+  width: 1.4px;
+  height: 70px;
+}
 
 
 
@@ -90,8 +110,8 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
   .container-main {
-    background-image: url(../../public/media/img/beauty.avif);
-    background-size: 500px;
+    background-image: url(../../public/media/img/saloon21.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
   } 
@@ -126,7 +146,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (min-width: 768px) and (max-width: 999px){
   .container-main {
-    background-image: url(../../public/media/img/beauty.avif);
+    background-image: url(../../public/media/img/saloon21.png);
     background-size: 600px;
     background-repeat: no-repeat;
     background-position: center top;

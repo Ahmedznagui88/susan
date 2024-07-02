@@ -16,7 +16,7 @@
     <div id="smooth-wrapper">
         <div id="smooth-content">
             <div class="min-vh-100">
-                <x-navbar />
+               {{--  <x-navbar /> --}}
                 {{ $slot }}
             </div>
         </div>

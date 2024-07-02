@@ -2,5 +2,5 @@
     <x-header />
  <x-chiSiamo />
 <x-servizi />
-{{-- <x-where/> --}}
+<x-where/>
 </x-layout>

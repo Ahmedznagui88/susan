@@ -14,7 +14,7 @@ function updateSpeed(selector, newSpeed) {
 
 function createSmoother() {
     return ScrollSmoother.create({
-        smooth: 1,
+        smooth: 2,
         effects: true,
         smoothTouch: 0.1,
     });
@@ -22,15 +22,15 @@ function createSmoother() {
 
 function handleMediaQueryChange(event) {
     if (event.matches) {
-        // Se la media query corrisponde, aggiorna il data-speed per dispositivi mobili
+
         updateSpeed('.div-img img', 0);
-        updateSpeed('.div-paragraph', 0);
+        updateSpeed('.paragraph', 0);
         updateSpeed('.img-who-we-2', 0);
         updateSpeed('.img-who-we-re', 0);
     } else {
-        // Se la media query non corrisponde, usa i valori di default
+
         updateSpeed('.div-img img', 0.5);
-        updateSpeed('.div-paragraph', 0.2);
+        updateSpeed('.paragraph', 0.2);
     }
 
     if (window.smoother) {
