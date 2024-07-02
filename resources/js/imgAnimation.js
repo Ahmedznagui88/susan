@@ -30,7 +30,7 @@ function handleMediaQueryChange(event) {
     } else {
         // Se la media query non corrisponde, usa i valori di default
         updateSpeed('.div-img img', 0.5);
-        updateSpeed('.div-paragraph', 0.1);
+        updateSpeed('.div-paragraph', 0.2);
     }
 
     if (window.smoother) {
