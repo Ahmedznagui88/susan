@@ -1,0 +1,14 @@
+footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-footer{
+    border-radius: 100px 0 0 ;
+    width: 100vw;
+    height: 200px;
+    padding: 10px;
+}

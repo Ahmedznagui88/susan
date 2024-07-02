@@ -19,6 +19,7 @@
                {{--  <x-navbar /> --}}
                 {{ $slot }}
             </div>
+            <x-footer />
         </div>
     </div>
 </body>
