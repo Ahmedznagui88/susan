@@ -12,3 +12,30 @@ footer{
     height: 200px;
     padding: 10px;
 }
+
+.where{
+    background-image: url(../../public/media/svg/Vector\ 36.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+}
+
+.adress{
+    font-family: 'La Mango';
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.social-media{
+
+    width: 130px;
+    display: flex;
+    
+}
+
+.social{
+    width: 20px;
+}

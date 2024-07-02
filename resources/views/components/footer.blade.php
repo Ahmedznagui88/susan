@@ -1,4 +1,4 @@
-<footer class="container-fluid">
+{{-- <footer class="container-fluid">
     <div class="row">
         <div class="col-12">
             <svg class="logo-footer" width="3708" height="882" viewBox="0 0 3708 882" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -13,4 +13,4 @@
                 
         </div>
     </div>
-</footer>
+</footer> --}}
