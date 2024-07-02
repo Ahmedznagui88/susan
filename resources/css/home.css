@@ -71,14 +71,38 @@ button{
   align-items: center;
 }
 
-.line{
-  background-color: rgb(154, 154, 154);
+.scroll{
+  font-family: 'La Mango';
+  font-style: italic;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.inner-line {
+
+  background-color: rgb(255, 255, 255); /* Colore bianco */    
+  width: 10px;
+  height: 10px;
   border-radius: 10px;
-  width: 1.4px;
-  height: 70px;
+
 }
 
 
+
+/* @keyframes colorChange {
+    0% {
+      background: linear-gradient(to right, rgb(239, 216, 216), rgb(205, 236, 205), rgb(214, 199, 248), rgb(95, 95, 95));
+    }
+    25% {
+        background-color: rgb(187, 228, 187);
+    }
+    50% {
+        background-color: rgb(213, 177, 233);
+    }
+    75% {
+        background-color: rgb(233, 233, 206);
+    }
+} */
 
 body {
   --sb-track-color: #ffffff;

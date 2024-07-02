@@ -26,8 +26,10 @@
 
     <div class="row">
         <div class="col-12 div-bottom-header">
-            <p class="text-center" style="color: rgb(154, 154, 154);">scroll</p>
-            <div class="line"></div>
+            <p class="text-center scroll">scroll</p>
+            <div class="circle">
+                <div class="inner-line"></div>
+            </div>
         </div>
     </div>
 </main>
