@@ -91,7 +91,7 @@
     
 }
 
-.div-paragraph{
+.div-paragraph-2{
     max-width: 400px;
     display: flex;
     align-self: center;
@@ -129,6 +129,13 @@
         justify-content: center;
         background-image: none;
 
+    }
+    .div-paragraph-2{
+        width: 100vw;
+        text-align: center;
+        z-index: 2222;
+        overflow: hidden;
+        margin: 20px;
     }
 
     .first-img{

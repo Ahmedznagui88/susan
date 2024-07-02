@@ -17,6 +17,14 @@
     
 }
 
+.div-paragraph{
+    padding-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .div-inner-img {
     position: relative;
 }
@@ -77,7 +85,7 @@
         width: 200px;
     }
     .text-chiSiamo {
-       
+       overflow: hidden;
         font-size: 14px;
         color: #000000;
     }
@@ -86,15 +94,13 @@
         width: 100vw;
         text-align: center;
         z-index: 2222;
+        overflow: hidden;
+        margin: 20px;
     }
 
     .row-chiSiamo{
         display: flex;
         justify-content: center;
-    }
-
-    .div-paragraph{
-        margin: 20px;
     }
 }
 

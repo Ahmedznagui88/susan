@@ -25,19 +25,17 @@ button{
   height: 100vh;
   background-image: url(../../public/media/img/saloon21.png);
   background-size: cover;
-  background-position-y: 00px;
 }
 
 .row-main{
-  height: 500px;
+  height: 480px;
   justify-content: center;
   align-items: center;
+
 }
 
 .div-img-header{
   height: 650px;
- /*  background-image: url(../../public/media/img/beauty.avif);
-  background-size: cover; */
 }
 
 .div-header{
@@ -45,7 +43,6 @@ button{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
   background-image: url(../../public/media/img/Rectangle\ 100.png);
   background-size: fill;
 }
@@ -64,6 +61,11 @@ button{
   transform-origin: -100px;
 }
 
+.row-bottom-header{
+  margin-bottom: 30px;
+
+}
+
 .div-bottom-header{
   display: flex;
   justify-content: center;
@@ -71,19 +73,30 @@ button{
   align-items: center;
 }
 
+
+
 .scroll{
   font-family: 'La Mango';
   font-style: italic;
   font-size: 20px;
   color: #ffffff;
 }
+.circle{
+  border: solid 0.5px  white;
+  border-radius: 20px;
+  width: 30px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 
+}
 .inner-line {
 
   background-color: rgb(255, 255, 255); /* Colore bianco */    
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
 
 }
 
@@ -155,6 +168,8 @@ body::-webkit-scrollbar-thumb {
     height: 500px;
     display: flex;
     align-items: center;
+    background-image: url(../../public/media/img/Rectangle\ 100.png);
+  background-size: 1500px;
   }
 
   .title-header {
@@ -164,6 +179,10 @@ body::-webkit-scrollbar-thumb {
   .text-header {
     font-size: 18px;
     text-align: center; 
+  }
+
+  .div-bottom-header{
+    margin-bottom: 30px;
   }
 }
 

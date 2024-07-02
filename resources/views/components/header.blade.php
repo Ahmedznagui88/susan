@@ -24,9 +24,9 @@
         </div>
     </article>
 
-    <div class="row">
+    <div class="row  row-bottom-header">
         <div class="col-12 div-bottom-header">
-            <p class="text-center scroll">scroll</p>
+            <p class="text-center scroll">scroll down</p>
             <div class="circle">
                 <div class="inner-line"></div>
             </div>
