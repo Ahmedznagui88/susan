@@ -1,4 +1,4 @@
-.section-product-whoWeAre{
+.section-product-whoWeAre {
     background: #baacac;
     display: flex;
     justify-content: center;
@@ -9,23 +9,23 @@
     background-size: 1000px;
 }
 
-.row-chiSiamo{
+.row-chiSiamo {
     padding: 50px;
     overflow: hidden;
     width: 90vw;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.div-inner-img{
+.div-inner-img {
     position: relative;
 }
 
-.img-who-we-re{
+.img-who-we-re {
     width: 340px;
     object-fit: cover;
 }
 
-.img-who-we-2{
+.img-who-we-2 {
     width: 300px;
     height: 300px;
     position: absolute;
@@ -35,17 +35,16 @@
     object-fit: cover;
 }
 
-.title-section-product{
-    font-family: 'La Mango';
+.title-section-product {
+    font-family: "La Mango";
     font-weight: 100;
     font-size: 100px;
     font-style: italic;
     color: #000000;
 }
 
-
 @media screen and (min-width: 200px) and (max-width: 767px) {
-    .section-product-whoWeAre{
+    .section-product-whoWeAre {
         background-image: url(../../public/media/svg/Group\ 59.png);
         background-repeat: repeat;
         background-position: 440px;
@@ -53,34 +52,61 @@
         background-image: none;
     }
 
-
-    .title-section-product{
+    .title-section-product {
         z-index: 2;
-        font-family: 'La Mango';
+        font-family: "La Mango";
         font-weight: 100;
         font-size: 90px;
         font-style: italic;
     }
 
-    .div-inner-img{
+    .div-outer-img {
         display: flex;
-        justify-content: center;
-       align-items: center;
+        justify-content: space-around;
+        width: 100%;
+
     }
 
-    .img-who-we-2{
-        position: absolute;
-        left: 26px;
+    .img-who-we-2 {
+        width: 120px;
+        height: 120px;
     }
 
-    .text-chiSiamo{
+    .img-who-we-re {
+        width: 200px;
+    }
+    .text-chiSiamo {
         z-index: 2;
         font-size: 14px;
         color: #000000;
     }
 
+    .div-paragraph{
+        width: 100vw;
+        text-align: center;
+    }
 
-    .img-who-we-re{
-        width: 330px;
+    .row-chiSiamo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-paragraph{
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .div-outer-img {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+
+    }
+
+    .div-paragraph{
+        width: 800px;
+        text-align: center;
+        color: #000000;
     }
 }

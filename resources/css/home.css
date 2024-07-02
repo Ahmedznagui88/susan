@@ -42,7 +42,7 @@ button{
   padding-top: 10px;
 }
 .title-header{
-  font-size: 150px;
+  font-size: 250px;
   font-family: 'La Mango';
   font-style: italic;
   color: rgb(0, 0, 0);
@@ -162,7 +162,7 @@ body::-webkit-scrollbar-thumb {
 
  @media screen and (min-width: 1000px){
   .title-header {
-    font-size: 120px;
+    font-size: 160px;
     
   }
 
