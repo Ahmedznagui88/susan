@@ -1,3 +1,5 @@
+
+/* 
 import { gsap } from "gsap";
 let count = 0;
 const targets = document.querySelectorAll(".box");
@@ -22,4 +24,4 @@ function slideOnePrev() {
 }
 prevButton.addEventListener("click", function() {
   slideOnePrev();
-});
+}); */

@@ -4,6 +4,7 @@ body {
   background-color: white;
   font-family: 'Gojali';
   z-index: -1;
+
 }
 li {
   list-style-type: none;
@@ -24,12 +25,14 @@ button{
   height: 100vh;
   background-image: url(../../public/media/img/saloon21.png);
   background-size: cover;
+  
 }
 
 .row-main{
   height: 480px;
   justify-content: center;
   align-items: center;
+  
 
 }
 
@@ -44,6 +47,7 @@ button{
   align-items: center;
   background-image: url(../../public/media/img/Rectangle\ 100.png);
   background-size: fill;
+  
 }
 .title-header{
   font-size: 250px;
@@ -52,22 +56,17 @@ button{
   color: rgb(0, 0, 0);
 }
 
-.div-content-hero{
 
-  width: 500px;
-  display: flex;
-  justify-content: space-between;
-}
 
 .text-header{
   font-weight: 100;
   font-size: 22px;
   font-family: 'Gojali';
   transform-origin: -100px;
+  
 }
 
 .link-contact{
-
   display: flex;
   justify-content: center;
   text-align: center;
@@ -82,6 +81,7 @@ button{
   justify-content: center;
   align-items: center;
   transition: 0.6s;
+  
 }
 
 .nav-item:hover{

@@ -1,5 +1,68 @@
+.categories{
+    height: auto;
+    position: relative;
+}
 
-.controls {
+.category{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-bottom: solid 0.4px black;
+    font-family: 'La Mango';
+}
+
+.single-category{
+    font-size: 70px;
+    margin-left: 200px;
+}
+
+.number-category{
+    font-size: 40px;
+}
+
+
+
+.hover-img{
+    position: absolute;
+    top: 567px;
+    right: 50px;
+    border: solid red;
+    width: 300px;
+    height: 374px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .controls {
     padding-bottom: 20px;
     display: flex;
     align-items: center;
@@ -8,6 +71,7 @@
     min-height: 40px;
 
   }
+  
   .controls button {
     margin: 0 8px;
     padding: 12px 24px;
@@ -41,4 +105,4 @@
   }
   .box04 {
       background-color: mediumorchid;
-  }
+  } */

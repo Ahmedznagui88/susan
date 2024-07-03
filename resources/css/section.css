@@ -8,6 +8,7 @@
   background-size: 900px;
   background-attachment: fixed;
   z-index: 2;
+
 }
 
 .wrapper{
@@ -17,6 +18,7 @@
     height: 100px;
     overflow: hidden;
     margin-bottom: 2rem;
+    
 }
 
 @keyframes scrollleft{

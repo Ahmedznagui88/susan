@@ -4,18 +4,20 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-let button = document.querySelector(".contact");
-
-button.addEventListener("click", (e) => {
-    smoother.scrollTo(".adress", true, "bottom 100px" );
-})
-
 function updateSpeed(selector, newSpeed) {
     const elements = document.querySelectorAll(selector);
     elements.forEach(element => {
         element.setAttribute('data-speed', newSpeed);
     });
 }
+
+/* let button = document.querySelector(".contact");
+
+button.addEventListener("click", (e) => {
+    smoother.scrollTo(".adress", true, "bottom 100px" );
+}) */
+
+
 
 
 function createSmoother() {

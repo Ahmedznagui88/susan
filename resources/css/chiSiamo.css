@@ -1,12 +1,14 @@
 .section-product-whoWeAre {
     background: #baacac;
+    background: #fffdf7;
     display: flex;
     justify-content: center;
     height: 90vh;
     background-image: url(../../public/media/svg/Group\ 59.png);
     background-repeat: no-repeat;
-    background-position-y: -100px;
+    background-position-x: 400px;
     background-size: 1000px;
+    
 }
 
 .row-chiSiamo {
@@ -18,11 +20,12 @@
 }
 
 .div-paragraph{
-    padding-top: 30px;
+    padding: 30px;
 
     display: flex;
     justify-content: center;
     flex-direction: column;
+    max-width: 500px;
 }
 
 .div-inner-img {
@@ -47,9 +50,9 @@
 .title-section-product {
     font-family: "La Mango";
     font-weight: 100;
-    font-size: 100px;
+    font-size: 130px;
     font-style: italic;
-    color: #000000;
+    color: #6a5c35;
 }
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
@@ -118,3 +121,4 @@
         color: #000000;
     }
 }
+
