@@ -106,10 +106,10 @@ button{
   font-family: 'La Mango';
   font-style: italic;
   font-size: 20px;
-  color: #ffffff;
+  color: #5b5b5b;
 }
 .circle{
-  border: solid 0.5px  white;
+  border: solid 0.5px #5b5b5b;
   border-radius: 20px;
   width: 30px;
   height: 60px;
@@ -120,7 +120,7 @@ button{
 }
 .inner-line {
 
-  background-color: rgb(255, 255, 255); /* Colore bianco */    
+  background-color: #5b5b5b; /* Colore bianco */    
   width: 8px;
   height: 8px;
   border-radius: 8px;
