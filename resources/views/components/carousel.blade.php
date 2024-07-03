@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row row-categories">
         <div class="col-12 manicure">
             <small class="number-category">01</small>
             <h6 class="single-category">Manicure</h6>

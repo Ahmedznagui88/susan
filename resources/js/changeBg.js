@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         elements.forEach((element) => {
             element.addEventListener("mouseenter", () => {
                 main.style.backgroundImage = `url(${imageUrl})`;
-                main.style.backgroundSize = 'fill'; 
+                main.style.backgroundSize = 'cover'; 
 
             });
             element.addEventListener("mouseleave", () => {
@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                 main.style.backgroundSize = "cover";
-                main.style.backgroundRepeat = "no-repeat";
-                main.style.backgroundPosition = "center";
+
             });
         });
     };
