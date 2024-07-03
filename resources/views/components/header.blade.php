@@ -18,13 +18,19 @@
     <article class="row row-main">
        {{--  <figure class="col-md-6 div-img-header"></figure> --}}
 
-        <div class="col-md-6 div-header">
+        <div class="col-md-7 div-header">
             <h1 class="title-header">Susan Nail</h1>
-            <p class="text-header">Dai stile alle tue unghie nel nostri beauty shop.</p>
+            <p class="text-header">Rinnova il tuo look nel nostro salone di bellezza.</p>
+        </div>
+
+        <div class="col-md-6 link-contact">
+            <li class="nav-item ">
+                <a  class="nav-link active contact" href="#servizi" >Prenota ora!</a>
+              </li>
         </div>
     </article>
 
-    <div class="row  row-bottom-header">
+    <div class="row row-bottom-header">
         <div class="col-12 div-bottom-header">
             <p class="text-center scroll">scroll down</p>
             <div class="circle">

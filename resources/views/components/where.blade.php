@@ -7,12 +7,12 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-                <img src="./media/svg/here.png" class="img-fluid img-here" alt="">
+                {{-- <img src="./media/svg/Group 67.png" class="img-fluid img-here" alt=""> --}}
                 
         </div>
         <div class="col-md-4 adress">
             <h6>Contatti</h6>
-            <p>Cell: 347 9130 980</p>
+            <p class="phone-number linear">Cell: 347 9130 980</p>
             <div class="social-media">
                 <a href="https://www.facebook.com/profile.php?id=100054103337159&locale=it_IT" target="_blank">
                     <img class="social" src="./media/img/facebook.png" alt="">

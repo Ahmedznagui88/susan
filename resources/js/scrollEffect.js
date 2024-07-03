@@ -1,23 +1,56 @@
-/* import {gsap} from "gsap";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollSmoother } from "gsap/ScrollSmoother";
 
-import { SplitText } from "gsap/all";
-import { ScrollTrigger } from "gsap/all";
-gsap.registerPlugin(SplitText, ScrollTrigger); 
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-let mySpiltText = new SplitText(".div-paragraph", {type:"chars"});
-let chars = mySpiltText.chars;
+let button = document.querySelector(".contact");
 
-
-gsap.from (chars, {
-    yPercent: 130,
-    stagger: 1.2,
-    duration: 0.5,
-    scrollTrigger: {
-        trigger: ".div-paragraph",
-        start: "top 90%",
-        end: "top 20%",
-        markers: true,
-        scrub: 1
-    }
+button.addEventListener("click", (e) => {
+    smoother.scrollTo(".adress", true, "bottom 100px" );
 })
- */
+
+function updateSpeed(selector, newSpeed) {
+    const elements = document.querySelectorAll(selector);
+    elements.forEach(element => {
+        element.setAttribute('data-speed', newSpeed);
+    });
+}
+
+
+function createSmoother() {
+    return ScrollSmoother.create({
+        smooth: 2,
+        effects: true,
+        smoothTouch: 0.1,
+    });
+}
+
+function handleMediaQueryChange(event) {
+    if (event.matches) {
+
+        updateSpeed('.div-img img', 0);
+        updateSpeed('.paragraph', 0);
+        updateSpeed('.img-who-we-2', 0);
+        updateSpeed('.img-who-we-re', 0);
+    } else {
+
+        updateSpeed('.div-img img', 0.5);
+        updateSpeed('.paragraph', 0.2);
+    }
+
+    if (window.smoother) {
+        window.smoother.kill();
+    }
+    window.smoother = createSmoother();
+}
+
+const mediaQuery = window.matchMedia("(max-width: 900px)");
+
+
+mediaQuery.addListener(handleMediaQueryChange);
+
+
+handleMediaQueryChange(mediaQuery);
+
+window.smoother = createSmoother();

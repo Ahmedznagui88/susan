@@ -33,6 +33,7 @@ tl.fromTo(
         yPercent: 50,
         autoAlpha: 0,
         opacity: 0,
+        delay:1,
     },
     {
         delay:1,
@@ -41,15 +42,15 @@ tl.fromTo(
         opacity: 1,
         ease: "power1.out",
         stagger: {
-            grid: [5, 50],
+            grid: [9, 50],
             from: "top",
             axis: "null",
-            amount: 0.6,
+            amount: 0.9,
         },
     }
 );
 
-tl.timeScale(1).play();
+tl.timeScale(0.8).play();
 
 document.addEventListener("DOMContentLoaded", function () {
   const tl = gsap.timeline({ repeat: -1, yoyo: true, ease: "back.out(1.7)",});
