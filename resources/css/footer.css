@@ -1,13 +1,14 @@
 footer{
-    height: 300px;
+    height: 52vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background: #baacac;
+
 }
 
 .logo-footer{
-    border-radius: 100px 0 0 ;
+
     width: 100vw;
     height: 200px;
     padding: 10px;
@@ -15,9 +16,11 @@ footer{
 
 .where{
     background-image: url(../../public/media/svg/Vector\ 36.png);
+    
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 150px;
+    background: #baacac;
 }
 
 .adress{
@@ -38,4 +41,35 @@ footer{
 
 .social{
     width: 20px;
+}
+
+.maps{
+    position: relative;
+    z-index: 0;
+}
+
+.img-here {
+    position: absolute;
+    top: 28px;
+    width: 160px;
+    /* Aggiungi queste proprietà per l'animazione */
+    animation: rotate 10s linear infinite;
+    z-index: 2222;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+    .adress{
+        margin-top: 10px;
+        border-bottom: solid 0.4px black;
+    }
 }

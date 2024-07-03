@@ -35,6 +35,7 @@ tl.fromTo(
         opacity: 0,
     },
     {
+        delay:1,
         yPercent: 0,
         autoAlpha: 1,
         opacity: 1,
@@ -48,7 +49,7 @@ tl.fromTo(
     }
 );
 
-tl.timeScale(0.6).play();
+tl.timeScale(1).play();
 
 document.addEventListener("DOMContentLoaded", function () {
   const tl = gsap.timeline({ repeat: -1, yoyo: true, ease: "back.out(1.7)",});
