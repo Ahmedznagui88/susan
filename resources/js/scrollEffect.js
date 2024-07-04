@@ -19,7 +19,7 @@ button.addEventListener("click", (e) => {
 
 function createSmoother() {
     return ScrollSmoother.create({
-        smooth: 0.5,
+        smooth: 0.9,
         effects: true,
         smoothTouch: 1,
     });

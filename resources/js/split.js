@@ -13,7 +13,7 @@ tl.from('.row-hero', {
     autoAlpha: 1,
     duration: 2,
     delay:1,
-    height: 10,
+    height: -500,
     ease: "power4.out",
 })
 
@@ -34,7 +34,7 @@ tl.to(".logo , .btn", {
     stagger: 0.1,
     ease: "power1.out",
     display: 'block',
-    duration: 2,
+    duration: 3,
 }, 1.2);
 
 tl.fromTo(
@@ -56,7 +56,7 @@ tl.fromTo(
             axis: "null",
             amount: 0.9,
         },
-    } ,1.4
+    } ,1.5
 );
 
  tl.timeScale(1).play(0.2);

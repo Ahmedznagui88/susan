@@ -60,10 +60,7 @@
 
         #progress-text {
             font-family: "La Mango";
-            font-style: italic;
-            margin-top: 20px;
             font-size: 300px;
-            font-weight: bold;
             color: #ffffff
         }
     </style>
