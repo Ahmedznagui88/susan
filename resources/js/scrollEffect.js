@@ -11,20 +11,17 @@ function updateSpeed(selector, newSpeed) {
     });
 }
 
-/* let button = document.querySelector(".contact");
+let button = document.querySelector(".contact");
 
 button.addEventListener("click", (e) => {
     smoother.scrollTo(".adress", true, "bottom 100px" );
-}) */
-
-
-
+}) 
 
 function createSmoother() {
     return ScrollSmoother.create({
         smooth: 2,
-        effects: true,
-        smoothTouch: 0.1,
+       /*  effects: true, */
+        smoothTouch: 1,
     });
 }
 

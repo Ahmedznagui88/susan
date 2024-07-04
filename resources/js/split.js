@@ -8,25 +8,6 @@ let chars = split.chars;
 const tl = gsap.timeline();
 tl.pause();
 
-/* tl.fromTo(".div-img-header", {
-  opacity: 0,
-  visibility: "hidden",
-  height: 0,
- 
-}, {
-  opacity: 1,
-  visibility: "visible",
-  duration: 0.8,
-  delay: 1,
-  height: 650,
-  y: 0,
-  ease: "slow(0.7, 0.7, false)",
-});
-
-tl.call(() => {
-  console.log("call");
-}); */
-
 tl.fromTo(
     chars,
     {
