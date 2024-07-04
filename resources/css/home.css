@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   font-family: 'Gojali';
   z-index: -1;
 
@@ -15,11 +15,11 @@ a{
     color: black;
 }
 
-/* button{
+ button{
   border: none;
   transition: all 0.4s;
 }
-
+/*
 
 .container-main{
   height: 100vh;

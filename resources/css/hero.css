@@ -1,55 +1,47 @@
-.container-main{
+.container-main {
     height: 100vh;
-    
-    
-  }
-  
-  .row-hero{
+}
+
+.row-hero {
     height: 100vh;
     justify-content: center;
     align-items: center;
     background-image: url(../../public/media/img/spa2.avif);
     background-size: cover;
     background-position-y: -50px;
-  
-  }
+}
 
-    
-  .link-contact{
-display: flex;
-justify-content: center;
+.link-contact {
+    display: flex;
+    justify-content: center;
     width: 400px;
-  }
-  
-  
-  .div-img-header{
+}
+
+.div-img-header {
     height: 650px;
-  }
-  
-  .div-header{
+}
+
+.div-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .title-header{
+}
+.title-header {
     font-size: 250px;
-    font-family: 'La Mango';
+    font-family: "La Mango";
     font-style: italic;
     color: rgb(0, 0, 0);
-  }
-  
-  
-  
-  .text-header{
+}
+
+.text-header {
     font-weight: 100;
     font-size: 22px;
-    font-family: 'Gojali';
+    font-family: "Gojali";
     transform-origin: -100px;
-    
-  }
+}
 
-  .nav-item{
+.nav-item {
     border: solid 0.5px rgb(0, 0, 0);
     border-radius: 20px;
     width: 140px;
@@ -58,34 +50,30 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     transition: 0.6s;
-    
-  }
-  
-  .nav-item:hover{
-    background-color: #FCEFEF;
-  }
-  
-  .row-bottom-header{
+}
+
+.nav-item:hover {
+    background-color: #fcefef;
+}
+
+.row-bottom-header {
     margin-bottom: 30px;
-  
-  }
-  
-  .div-bottom-header{
+}
+
+.div-bottom-header {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-  
-  
-  
-  .scroll{
-    font-family: 'La Mango';
+}
+
+.scroll {
+    font-family: "La Mango";
     font-style: italic;
     font-size: 20px;
     color: #5b5b5b;
-  }
-  .circle{
+}
+.circle {
     border: solid 0.5px #5b5b5b;
     border-radius: 20px;
     width: 30px;
@@ -93,135 +81,119 @@ justify-content: center;
     display: flex;
     justify-content: center;
     padding: 5px;
-  
-  }
-  .inner-line {
-  
-    background-color: #5b5b5b; /* Colore bianco */    
+}
+.inner-line {
+    background-color: #5b5b5b;
     width: 8px;
     height: 8px;
     border-radius: 8px;
-  
-  }
-  
-  
-  
-  
-  body {
+}
+
+body {
     --sb-track-color: #ffffff;
     --sb-thumb-color: #a9afb0;
     --sb-size: 8px;
-  }
-  
-  body::-webkit-scrollbar {
-    width: var(--sb-size)
-  }
-  
-  body::-webkit-scrollbar-track {
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
     background: var(--sb-track-color);
-    
-  }
-  
-  body::-webkit-scrollbar-thumb {
+}
+
+body::-webkit-scrollbar-thumb {
     background: var(--sb-thumb-color);
-    
-    
-  }
-  
-  @supports not selector(::-webkit-scrollbar) {
+}
+
+@supports not selector(::-webkit-scrollbar) {
     body {
-      scrollbar-color: var(--sb-thumb-color)
-                       var(--sb-track-color);
+        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
     }
-  }
-  
-  @media screen and (min-width: 200px) and (max-width: 767px) {
+}
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
     .container-main {
-      background-image: url(../../public/media/img/saloon21.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center top;
-    } 
-  
+        background-image: url(../../public/media/img/saloon21.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
     .row-main {
-      flex-direction: column-reverse;
-      align-items: baseline;
-  
+        flex-direction: column-reverse;
+        align-items: baseline;
     }
-  
+
     .div-img-header {
-      height: 200px; 
-      background-image: none;
+        height: 200px;
+        background-image: none;
     }
-  
-    .div-header{
-      height: 500px;
-      display: flex;
-      align-items: center;
-      background-image: url(../../public/media/img/Rectangle\ 100.png);
-    background-size: 1500px;
+
+    .div-header {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        background-image: url(../../public/media/img/Rectangle\ 100.png);
+        background-size: 1500px;
     }
-  
+
     .title-header {
-      font-size: 100px;
+        font-size: 100px;
     }
-  
+
     .text-header {
-      font-size: 18px;
-      text-align: center; 
+        font-size: 18px;
+        text-align: center;
     }
-  
-    .div-bottom-header{
-      margin-bottom: 30px;
+
+    .div-bottom-header {
+        margin-bottom: 30px;
     }
-  }
-  
-  
-  @media screen and (min-width: 768px) and (max-width: 999px){
+}
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
     .container-main {
-      background-image: url(../../public/media/img/saloon21.png);
-      background-size: 600px;
-      background-repeat: no-repeat;
-      background-position: center top;
+        background-image: url(../../public/media/img/saloon21.png);
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position: center top;
     }
-  
+
     .row-main {
-      flex-direction: column-reverse;
-      align-items: baseline;
-      
+        flex-direction: column-reverse;
+        align-items: baseline;
     }
-  
+
     .div-img-header {
-      background: none;
+        background: none;
     }
-  
-    .div-header{
-      width: 100vw;
-      height: 500px;
-      display: flex;
-      justify-content: center;
+
+    .div-header {
+        width: 100vw;
+        height: 500px;
+        display: flex;
+        justify-content: center;
     }
-  
+
     .title-header {
-      font-size: 120px;
+        font-size: 120px;
     }
-  
+
     .text-header {
-      font-size: 18px;
-      text-align: center; 
+        font-size: 18px;
+        text-align: center;
     }
-  }
-  
-  
-   @media screen and (min-width: 1000px){
+}
+
+@media screen and (min-width: 1000px) {
     .title-header {
-      font-size: 160px;
-      
+        font-size: 160px;
     }
-  
+
     .text-header {
-      font-size: 18px;
-      text-align: center; 
+        font-size: 18px;
+        text-align: center;
     }
-  
-  } 
+}

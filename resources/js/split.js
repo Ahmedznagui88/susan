@@ -59,7 +59,7 @@ tl.fromTo(
     } ,1.4
 );
 
-tl.timeScale(1).play(0.2);
+ tl.timeScale(1).play(0.2);
 
 });
 
