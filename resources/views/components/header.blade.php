@@ -1,4 +1,4 @@
-<main class="container-fluid container-main">
+{{-- <main class="container-fluid container-main">
    <div class="row">
     <div class="col-12 d-flex justify-content-center mt-2">
         <a href="/">
@@ -21,7 +21,7 @@
             <p class="text-header">Rinnova il tuo look nel nostro salone di bellezza.</p>
         </div>
 
-        <div class="col-md-6 link-contact">
+        <div class="col-md-6 link-contact ">
             <li class="nav-item ">
                 <a  class="nav-link active contact" href="#servizi" >Prenota ora!</a>
               </li>
@@ -38,3 +38,4 @@
     </div>
 </main>
 
+ --}}

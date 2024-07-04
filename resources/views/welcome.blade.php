@@ -1,5 +1,6 @@
 <x-layout>
-    <x-header />
+    {{-- <x-header /> --}}
+    <x-hero/>
  <x-chiSiamo />
 <x-servizi />
 <x-carousel />

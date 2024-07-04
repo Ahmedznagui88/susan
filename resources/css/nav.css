@@ -4,5 +4,7 @@
     height: 60px;
     display: flex;
     align-items: baseline;
+    transform-origin: 50px;
+    transition: 0.9s;
 }
 
