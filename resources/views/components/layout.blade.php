@@ -17,8 +17,8 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: #fff;
-            background: #000;
+            background: #fffdf7;
+            
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -38,7 +38,7 @@
             width: 30px;
             height: 30px;
             margin: 0 5px;
-            background: #fff;
+            background: #000000;
             border-radius: 50%;
             animation: bounce 0.6s infinite alternate;
         }
@@ -61,7 +61,7 @@
         #progress-text {
             font-family: "La Mango";
             font-size: 300px;
-            color: #ffffff
+            color: #000000
         }
     </style>
 </head>

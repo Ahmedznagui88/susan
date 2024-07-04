@@ -13,7 +13,7 @@ tl.from('.row-hero', {
     autoAlpha: 1,
     duration: 2,
     delay:1,
-    height: -500,
+    height: 50,
     ease: "power4.out",
 })
 
@@ -34,7 +34,7 @@ tl.to(".logo , .btn", {
     stagger: 0.1,
     ease: "power1.out",
     display: 'block',
-    duration: 3,
+    duration: 2,
 }, 1.2);
 
 tl.fromTo(
@@ -59,7 +59,7 @@ tl.fromTo(
     } ,1.5
 );
 
- tl.timeScale(1).play(0.2);
+ tl.timeScale(0.9).play(0.2);
 
 });
 

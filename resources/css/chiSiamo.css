@@ -1,13 +1,10 @@
 .section-product-whoWeAre {
     background: #baacac;
-    background: #fffdf7;
+    background-color: rgb(248, 239, 237);
     display: flex;
     justify-content: center;
     height: 90vh;
-    background-image: url(../../public/media/svg/Group\ 59.png);
-    background-repeat: no-repeat;
-    background-position-x: 400px;
-    background-size: 1000px;
+    color: #000000;
     
 }
 

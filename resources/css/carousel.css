@@ -23,8 +23,8 @@
 
 .img-container-category {
     position: absolute;
-    top: 26px;
-    left: 50px;
+    top: 0;
+    left: 250px;
     width: 300px;
     height: 374px;
     background-size: cover;
