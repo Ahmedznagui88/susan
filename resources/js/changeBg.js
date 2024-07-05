@@ -1,21 +1,27 @@
 document.addEventListener("DOMContentLoaded", () => {
     const main = document.querySelector(".img-container-category");
-    const defaultImage = "none";  
-    const defaultColor = "transparent";
+    const overlay = document.querySelector(".overlay");
+
+    let isAnimating = false;
+
     const setBackgroundImage = (selector, imageUrl) => {
         const elements = document.querySelectorAll(selector);
         elements.forEach((element) => {
             element.addEventListener("mouseenter", () => {
-                main.style.backgroundImage = `url(${imageUrl})`;
-                main.style.backgroundSize = 'cover'; 
-                main.style.boxShadow = "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
-                main.style.background = 'opacity 0.5'
-            });
-            element.addEventListener("mouseleave", () => {
-                main.style.backgroundImage = defaultImage;
-                main.style.backgroundColor = defaultColor;
-                main.style.backgroundSize = "cover";
-                main.style.boxShadow = ""
+                if (isAnimating) return;
+                isAnimating = true;
+
+                overlay.style.backgroundImage = `url(${imageUrl})`;
+                overlay.style.display = 'block';
+
+                gsap.fromTo(overlay, 
+                    {left: '100%'}, 
+                    {left: '0%', duration: 1, ease: "power2.out", onComplete: () => {
+                        main.style.backgroundImage = `url(${imageUrl})`;
+                        overlay.style.display = 'none';
+                        isAnimating = false;
+                    }}
+                );
             });
         });
     };
@@ -27,14 +33,5 @@ document.addEventListener("DOMContentLoaded", () => {
     setBackgroundImage(".extension", "./media/img/extension.avif");
     setBackgroundImage(".trattamento", "./media/img/beauty.avif");
     setBackgroundImage(".epilazione", "./media/img/epilazione.avif");
-    setBackgroundImage(".offerta ", "./media/img/offerta.avif");
-    document.addEventListener("mousemove", (e) => {
-        gsap.to(main, {
-            x: e.clientX,
-            y: e.clientY,
-            duration:0.5,
-            smoothOrigin: "center center",
-            ease: "power1.out",
-        });
-    });
+    setBackgroundImage(".offerta", "./media/img/offerta.avif");
 });

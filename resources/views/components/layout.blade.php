@@ -30,7 +30,7 @@
         #loader {
             display: flex;
             align-items: center;
-            margin-bottom: 30px;
+            
         }
 
         #loader span {
@@ -69,12 +69,12 @@
 <body>
 
     <div id="preloader">
+        <div id="progress-text">0%</div>
         <div id="loader">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        <div id="progress-text">0%</div>
     </div>
 
 

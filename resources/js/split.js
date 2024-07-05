@@ -1,6 +1,7 @@
 import { gsap } from "gsap";
 import { SplitText } from "gsap/SplitText";
-gsap.registerPlugin(SplitText);
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(SplitText, ScrollTrigger);
 
 document.addEventListener("DOMContentLoaded", function () {
 let split = new SplitText(".text-header, .title-header, .contact, .scroll", { type: "chars" });
@@ -15,9 +16,32 @@ tl.from('.row-hero', {
     delay:1,
     height: 50,
     ease: "power4.out",
+
+    scrollTrigger:{
+        trigger: ".row-hero",
+        start: "top 100%",
+        end: "bottom 50%",
+        scale: 1.2,
+        scrub: 1,
+        markers: true,
+    }
 })
 
-tl.from(".logo , .div-bottom-header, .btn",
+
+
+
+
+
+tl.from('.circle', {
+    opacity: 0,
+    autoAlpha: 1,
+    y: 50,
+    transformOrigin: "bottom left",
+    stagger: 0.1,
+    ease: "power1.out",
+}, 2.3)
+
+tl.from(".logo, .btn",
     {
         opacity: 0,
         autoAlpha: 1,
@@ -51,7 +75,7 @@ tl.fromTo(
         opacity: 1,
         ease: "power1.out",
         stagger: {
-            grid: [9, 50],
+            grid: [3, 50],
             from: "top",
             axis: "null",
             amount: 0.9,

@@ -23,7 +23,7 @@
             </div>
     
           <div class="col-12 link-contact">
-                <li class="nav-item ">
+                <li class="nav-item">
                     <a  class="nav-link active contact" href="#servizi" >Prenota ora!</a>
                   </li>
             </div> 
