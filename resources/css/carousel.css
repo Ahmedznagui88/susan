@@ -11,6 +11,7 @@
     overflow: hidden;
     width: 40vw;
     height: 90vh;
+    border: solid 0.5px ;
 }
 
 .row-categories{
@@ -32,7 +33,7 @@
 
 .img-container-category {
     position: relative;
-    background-image: url(../../public/media/img/spa.avif);
+    background-image: url(../../public/media/img/spa2.avif);
     width: 100vw;
     height: 90vh;
     background-size: cover;
@@ -46,7 +47,6 @@
     width: 100%;
     height: 100%;
     background-size: cover;
-
     display: none;
 }
 .manicure, .pedicure, .ricostruzione, .trucco, .extension, .trattamento, .epilazione{

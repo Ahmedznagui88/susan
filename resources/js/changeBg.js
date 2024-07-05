@@ -3,8 +3,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const overlay = document.querySelector(".overlay");
 
     let isAnimating = false;
+    let lastDirection = 'left';
+
+    const preloadImage = (url) => {
+        const img = new Image();
+        img.src = url;
+    };
 
     const setBackgroundImage = (selector, imageUrl) => {
+        preloadImage(imageUrl);
+
         const elements = document.querySelectorAll(selector);
         elements.forEach((element) => {
             element.addEventListener("mouseenter", () => {
@@ -14,14 +22,24 @@ document.addEventListener("DOMContentLoaded", () => {
                 overlay.style.backgroundImage = `url(${imageUrl})`;
                 overlay.style.display = 'block';
 
+                const direction = lastDirection === 'left' ? 'right' : 'left';
+                lastDirection = direction;
+
+                const fromValue = direction === 'left' ? '100%' : '-100%';
+                const toValue = '0%';
+
                 gsap.fromTo(overlay, 
-                    {left: '100%'}, 
-                    {left: '0%', duration: 1, ease: "power2.out", onComplete: () => {
+                    {left: fromValue}, 
+                    {left: toValue, duration: 1, ease: "power4.out", onComplete: () => {
                         main.style.backgroundImage = `url(${imageUrl})`;
                         overlay.style.display = 'none';
                         isAnimating = false;
                     }}
                 );
+            });
+
+            element.addEventListener("mouseleave", () => {
+                isAnimating = false;
             });
         });
     };
