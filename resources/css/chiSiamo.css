@@ -52,6 +52,7 @@
     color: #6a5c35;
 }
 
+
 @media screen and (min-width: 200px) and (max-width: 767px) {
     .section-product-whoWeAre {
         background-image: url(../../public/media/svg/Group\ 59.png);
@@ -82,7 +83,7 @@
     }
 
     .img-who-we-re {
-        width: 200px;
+        width: 170px;
     }
     .text-chiSiamo {
        overflow: hidden;

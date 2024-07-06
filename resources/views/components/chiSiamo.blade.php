@@ -6,10 +6,10 @@
            </div> 
            <div class="col-md-4 div-outer-img">
                <div  class="div-inner-img" >
-                   <img data-speed="0.1" class="img-who-we-2" src="./media/img/photo-1562048048-86d659689440.avif" alt="">
+                   <img data-speed="0.2" class="img-who-we-re" src="./media/img/nail.avif" alt="">
                </div>
                <div  class="div-inner-img" >
-                   <img data-speed="0.2" class="img-who-we-re" src="./media/img/nail.avif" alt="">
+                   <img data-speed="0.1" class="img-who-we-2" src="./media/img/photo-1562048048-86d659689440.avif" alt="">
                </div>
            </div>
         </div>

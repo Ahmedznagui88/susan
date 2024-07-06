@@ -30,7 +30,7 @@ function animateLargeScreens() {
     });
 }
 
-// Definisci le animazioni per schermi più piccoli
+
 function animateSmallScreens() {
     gsap.from(".row-hero", {
         opacity: 0,
@@ -50,24 +50,24 @@ function animateSmallScreens() {
     });
 }
 
-// Crea una media query
+
 const mediaQuery = window.matchMedia("(max-width: 767px)");
 
-// Funzione per gestire il cambiamento della media query
+
 function handleMediaQueryChange(e) {
     if (e.matches) {
-        // Schermi più piccoli
+        
         animateSmallScreens();
     } else {
-        // Schermi più grandi
+        
         animateLargeScreens();
     }
 }
 
-// Ascolta i cambiamenti della media query
+
 mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-// Inizialmente esegui la funzione per impostare le animazioni corrette
+
 handleMediaQueryChange(mediaQuery);
 
     
