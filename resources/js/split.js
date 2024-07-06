@@ -11,15 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
     let chars = split.chars;
 
     const tl = gsap.timeline();
-
-    tl.from(".row-hero", {
+function animateLargeScreens() {
+    gsap.from(".row-hero", {
         opacity: 0,
         autoAlpha: 1,
         duration: 2,
         delay: 1,
         height: 50,
         ease: "power4.out",
-
         scrollTrigger: {
             trigger: ".row-hero",
             start: "top 100%",
@@ -29,6 +28,49 @@ document.addEventListener("DOMContentLoaded", function () {
             markers: true,
         },
     });
+}
+
+// Definisci le animazioni per schermi più piccoli
+function animateSmallScreens() {
+    gsap.from(".row-hero", {
+        opacity: 0,
+        autoAlpha: 1,
+        duration: 1.5,
+        delay: 0.5,
+        height: 50,
+        ease: "power4.out",
+        scrollTrigger: {
+            trigger: ".row-hero",
+            start: "top 90%",
+            end: "bottom 40%",
+            scale: 1.1,
+            scrub: 1,
+            markers: true,
+        },
+    });
+}
+
+// Crea una media query
+const mediaQuery = window.matchMedia("(max-width: 767px)");
+
+// Funzione per gestire il cambiamento della media query
+function handleMediaQueryChange(e) {
+    if (e.matches) {
+        // Schermi più piccoli
+        animateSmallScreens();
+    } else {
+        // Schermi più grandi
+        animateLargeScreens();
+    }
+}
+
+// Ascolta i cambiamenti della media query
+mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+// Inizialmente esegui la funzione per impostare le animazioni corrette
+handleMediaQueryChange(mediaQuery);
+
+    
 
     tl.from(
         ".circle",
