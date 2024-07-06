@@ -1,6 +1,6 @@
 <header class="container-fluid container-main">
     <article class="row row-hero">
-            <div class="col-12 d-flex justify-content-center mt-2">
+            <div class="col-12 div-logo col-md-6 d-flex justify-content-center">
                 <a href="/">
                     <svg class="logo" width="3708" height="882" viewBox="0 0 3708 882" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M677.15 14H48C29.2223 14 14 29.2223 14 48V126.036C14 144.814 29.2223 160.036 48 160.036H643.15C661.928 160.036 677.15 175.258 677.15 194.036V265.155C677.15 283.932 661.928 299.155 643.15 299.155H14" stroke="black" stroke-width="27"/>
@@ -18,8 +18,6 @@
             <div class="col-12 div-header">
                 <h1 class="title-header">Susan Nail</h1>
                 <p class="text-header">Rinnova il tuo look nel nostro salone di bellezza</p>
-
-
             </div>
     
           <div class="col-12 link-contact">

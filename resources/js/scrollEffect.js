@@ -14,25 +14,25 @@ function updateSpeed(selector, newSpeed) {
 let button = document.querySelector(".contact");
 
 button.addEventListener("click", (e) => {
-    smoother.scrollTo(".adress", true, "bottom 100px");
+    smoother.scrollTo(".address", true, "bottom 100px");
 });
 
 function createSmoother() {
     return ScrollSmoother.create({
         smooth: 0.9,
         effects: true,
-        smoothTouch: 1,
+        smoothTouch: 3,
     });
 }
 
 function handleMediaQueryChange(event) {
     if (event.matches) {
-        updateSpeed(".div-img img", 0);
+        updateSpeed(".div-img", 0);
         updateSpeed(".paragraph", 0);
-        updateSpeed(".img-who-we-2", 0);
-        updateSpeed(".img-who-we-re", 0);
+        updateSpeed("img.who-we-2", 0);
+        updateSpeed("img.who-we-re", 0);
     } else {
-        updateSpeed(".div-img img", 0.5);
+        updateSpeed(".div-img", 0.5);
         updateSpeed(".paragraph", 0.2);
     }
 
@@ -45,7 +45,6 @@ function handleMediaQueryChange(event) {
 const mediaQuery = window.matchMedia("(max-width: 900px)");
 
 mediaQuery.addListener(handleMediaQueryChange);
-
 handleMediaQueryChange(mediaQuery);
 
 window.smoother = createSmoother();

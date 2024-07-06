@@ -42,7 +42,6 @@
 }
 
 .nav-item {
-
     border-radius: 20px;
     width: 140px;
     height: 40px;
@@ -115,16 +114,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
-/*     .container-main {
-        background-image: url(../../public/media/img/saloon21.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center top;
-    } */
+    .container-main {
+        height: 100vh;
+    }
 
-    .row-main {
-        flex-direction: column-reverse;
-        align-items: baseline;
+
+    .row-hero {
+        height: 100vh;
+        background-image: url(../../public/media/img/spa2.avif);
+        background-size: cover;
+        border: solid red;
     }
 
     .div-img-header {
@@ -133,7 +132,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .div-header {
-        height: 500px;
+        height: 200px;
         display: flex;
         align-items: center;
     }

@@ -8,3 +8,17 @@
     transition: 0.9s;
 }
 
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+   
+    .div-logo{
+        height: 80px;
+        border: solid yellow;
+        display: flex;
+    }
+   
+    .logo{
+        border: solid red;
+        width: 320px;
+    }
+}

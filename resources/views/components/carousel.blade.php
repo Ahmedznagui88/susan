@@ -12,48 +12,48 @@
 <article class="container-fluid categories">
 
     <div class="row row-categories">
-        <div class="col-12 manicure">
+        <div class="col-12 category manicure">
             <small class="number-category">01</small>
             <h6 class="single-category">Manicure</h6>
         </div>
 
-        <div class="col-12 pedicure">
+        <div class="col-12 category pedicure">
             <small class="number-category">02</small>
             <h6 class="single-category">
                 Pedicure
             </h6>
         </div>
-        <div class="col-12 ricostruzione">
+        <div class="col-12 category ricostruzione">
             <small class="number-category">03</small>
             <h6 class="single-category">
                 Ricostruzione gel
             </h6>
         </div>
-        <div class="col-12 trucco">
+        <div class="col-12 category trucco">
             <small class="number-category">04</small>
             <h6 class="single-category">
                 Trucco semipermanente
             </h6>
         </div>
-        <div class="col-12 extension">
+        <div class="col-12 category extension">
             <small class="number-category">05</small>
             <h6 class="single-category">
                 Extension ciglia
             </h6>
         </div>
-        <div class="col-12 trattamento">
+        <div class="col-12 category trattamento">
             <small class="number-category">06</small>
             <h6 class="single-category">
                 Trattamento viso e corpo
             </h6>
         </div>
-        <div class="col-12 epilazione">
+        <div class="col-12 category epilazione">
             <small class="number-category">07</small>
             <h6 class="single-category">
                 Epilazione
             </h6>
         </div>
-        <div class="col-12 offerta">
+        <div class="col-12 category offerta">
             <small class="number-category">08</small>
             <h6 class="single-category">
                 Offerta speciale
