@@ -1,23 +1,21 @@
-.categories{
-
+.categories {
     background: #fffdf7;
     display: flex;
     justify-content: space-between;
     width: 100vw;
-
 }
 
-.row-show-img-categories{
+.row-show-img-categories {
     overflow: hidden;
     width: 40vw;
     height: 90vh;
-    border: solid 0.5px ;
+    border: solid 0.5px;
 }
 
-.row-categories{
+.row-categories {
     width: 60vw;
     height: auto;
-    border: solid 0.5px ;
+    border: solid 0.5px;
     height: 90vh;
 }
 
@@ -38,8 +36,8 @@
     height: 90vh;
     background-size: cover;
     overflow: hidden;
-
 }
+
 .overlay {
     position: absolute;
     top: 0;
@@ -48,37 +46,35 @@
     height: 100%;
     background-size: cover;
     display: none;
+    z-index: 1;
 }
-.category{
+.category {
     display: flex;
     align-items: center;
-    justify-content: left; 
-border-bottom: solid 0.4px black;
-    font-family: 'La Mango';
+    justify-content: left;
+    border-bottom: solid 0.4px black;
+    font-family: "La Mango";
     transition: 1s;
-        cursor: pointer;
-        
+    cursor: pointer;
 }
 
-
 @media screen and (min-width: 200px) and (max-width: 767px) {
-    .row-show-img-categories{
-      display: none;
+    .row-show-img-categories {
+        display: none;
     }
-    .row-categories{
+    .row-categories {
         width: 100vw;
-
     }
 
     .number-category,
-    .single-category{
+    .single-category {
         font-size: 22px;
         margin: 14px;
         display: flex;
         justify-content: center;
     }
 
-    .category{
+    .category {
         display: flex;
         justify-content: space-between;
     }

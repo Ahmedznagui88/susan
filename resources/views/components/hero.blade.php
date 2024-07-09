@@ -17,7 +17,7 @@
 
             <div class="col-12 div-header">
                 <h1 class="title-header">Susan Nail</h1>
-                <p class="text-header">Rinnova il tuo look nel nostro salone di bellezza</p>
+                <p class="text-header mt-5">Rinnova il tuo look nel nostro salone di bellezza</p>
             </div>
     
           <div class="col-12 link-contact">

@@ -11,66 +11,49 @@ document.addEventListener("DOMContentLoaded", function () {
     let chars = split.chars;
 
     const tl = gsap.timeline();
-function animateLargeScreens() {
-    gsap.from(".row-hero", {
-        opacity: 0,
-        autoAlpha: 1,
-        duration: 2,
-        delay: 1,
-        height: 50,
-        ease: "power4.out",
-        scrollTrigger: {
-            trigger: ".row-hero",
-            start: "top 100%",
-            end: "bottom 50%",
-            scale: 1.2,
-            scrub: 1,
-            markers: true,
-        },
-    });
-}
-
-
-function animateSmallScreens() {
-    gsap.from(".row-hero", {
-        opacity: 0,
-        autoAlpha: 1,
-        duration: 1.5,
-        delay: 0.5,
-        height: 50,
-        ease: "power4.out",
-        scrollTrigger: {
-            trigger: ".row-hero",
-            start: "top 90%",
-            end: "bottom 40%",
-            scale: 1.1,
-            scrub: 1,
-            markers: true,
-        },
-    });
-}
-
-
-const mediaQuery = window.matchMedia("(max-width: 767px)");
-
-
-function handleMediaQueryChange(e) {
-    if (e.matches) {
-        
-        animateSmallScreens();
-    } else {
-        
-        animateLargeScreens();
+    function animateLargeScreens() {
+        gsap.from(".row-hero", {
+            opacity: 0,
+            autoAlpha: 1,
+            duration: 2,
+            delay: 1,
+            height: 50,
+            ease: "power4.out",
+            scrollTrigger: {
+                trigger: ".row-hero",
+                start: "top 100%",
+                end: "bottom 50%",
+                scale: 1.2,
+                scrub: 1,
+                markers: true,
+            },
+        });
     }
-}
 
+    function animateSmallScreens() {
+        gsap.from(".row-hero", {
+            opacity: 0,
+            autoAlpha: 1,
+            duration: 1.5,
+            delay: 0.5,
+            height: 50,
+            ease: "power4.out",
+        });
+    }
 
-mediaQuery.addEventListener("change", handleMediaQueryChange);
+    const mediaQuery = window.matchMedia("(max-width: 767px)");
 
+    function handleMediaQueryChange(e) {
+        if (e.matches) {
+            animateSmallScreens();
+        } else {
+            animateLargeScreens();
+        }
+    }
 
-handleMediaQueryChange(mediaQuery);
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-    
+    handleMediaQueryChange(mediaQuery);
 
     tl.from(
         ".circle",
@@ -120,14 +103,11 @@ handleMediaQueryChange(mediaQuery);
             opacity: 1,
             ease: "power1.out",
             stagger: {
-                grid: [3, 50],
+                grid: [9, 50],
                 from: "top",
                 axis: "null",
                 amount: 0.9,
-            },
-        },
-        1.5
-    );
+            }},1.5);
 
     tl.timeScale(0.9).play(0.2);
 });
@@ -137,25 +117,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     tl.fromTo(
         ".inner-line",
-        {
-            y: 35,
-            opacity: 0,
-        },
-        {
-            y: 0,
-            opacity: 1,
-            duration: 2.5,
-        }
+        {y: 35, opacity: 0,},
+        {y: 0, opacity: 1, duration: 2.5 }
     ).fromTo(
         ".inner-line",
-        {
-            y: 0,
-            opacity: 1,
-        },
-        {
-            y: 35,
-            opacity: 0,
-            duration: 2,
-        }
+        {y: 0, opacity: 1},
+        {y: 35, opacity: 0, duration: 2}
     );
 });

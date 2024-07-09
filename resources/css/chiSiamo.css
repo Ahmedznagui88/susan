@@ -18,7 +18,6 @@
 
 .div-paragraph{
     padding: 30px;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -51,7 +50,6 @@
     font-style: italic;
     color: #6a5c35;
 }
-
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
     .section-product-whoWeAre {

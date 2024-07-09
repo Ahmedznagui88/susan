@@ -5,14 +5,23 @@ document.addEventListener("DOMContentLoaded", () => {
     let isAnimating = false;
     let lastDirection = 'left';
 
-    const preloadImage = (url) => {
+    const images = [
+        "./media/img/nail2.avif",
+        "./media/img/pedicure.avif",
+        "./media/img/ricostruzione.avif",
+        "./media/img/person.avif",
+        "./media/img/extension.avif",
+        "./media/img/beauty.avif",
+        "./media/img/epilazione.avif",
+        "./media/img/offerta.avif"
+    ];
+    
+    images.forEach(url => {
         const img = new Image();
         img.src = url;
-    };
+    });
 
     const setBackgroundImage = (selector, imageUrl) => {
-        preloadImage(imageUrl);
-
         const elements = document.querySelectorAll(selector);
         elements.forEach((element) => {
             element.addEventListener("mouseenter", () => {
@@ -30,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 gsap.fromTo(overlay, 
                     {left: fromValue}, 
-                    {left: toValue, duration: 1, ease: "power4.out", onComplete: () => {
+                    {left: toValue, duration: 0.75, ease: "power4.out", onComplete: () => {
                         main.style.backgroundImage = `url(${imageUrl})`;
                         overlay.style.display = 'none';
                         isAnimating = false;
@@ -39,7 +48,11 @@ document.addEventListener("DOMContentLoaded", () => {
             });
 
             element.addEventListener("mouseleave", () => {
-                isAnimating = false;
+                if (isAnimating) {
+                    gsap.killTweensOf(overlay);
+                    isAnimating = false;
+                    overlay.style.display = 'none';
+                }
             });
         });
     };
