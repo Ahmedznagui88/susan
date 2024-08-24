@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", () => {
     let lastDirection = 'left';
 
     const images = [
-        "./media/img/nail2.avif",
-        "./media/img/pedicure.avif",
-        "./media/img/ricostruzione.avif",
-        "./media/img/person.avif",
-        "./media/img/extension.avif",
-        "./media/img/beauty.avif",
-        "./media/img/epilazione.avif",
-        "./media/img/offerta.avif"
+        "./media/img/nail2.webp",
+        "./media/img/pedicure.webp",
+        "./media/img/ricostruzione.webp",
+        "./media/img/person.webp",
+        "./media/img/extension.webp",
+        "./media/img/beauty.webp",
+        "./media/img/epilazione.webp",
+        "./media/img/offerta.webp"
     ];
     
     images.forEach(url => {
@@ -57,12 +57,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     };
 
-    setBackgroundImage(".manicure", "./media/img/nail2.avif");
-    setBackgroundImage(".pedicure", "./media/img/pedicure.avif");
-    setBackgroundImage(".ricostruzione", "./media/img/ricostruzione.avif");
-    setBackgroundImage(".trucco", "./media/img/person.avif");
-    setBackgroundImage(".extension", "./media/img/extension.avif");
-    setBackgroundImage(".trattamento", "./media/img/beauty.avif");
-    setBackgroundImage(".epilazione", "./media/img/epilazione.avif");
-    setBackgroundImage(".offerta", "./media/img/offerta.avif");
+    setBackgroundImage(".manicure", "./media/img/nail2.webp");
+    setBackgroundImage(".pedicure", "./media/img/pedicure.webp");
+    setBackgroundImage(".ricostruzione", "./media/img/ricostruzione.webp");
+    setBackgroundImage(".trucco", "./media/img/person.webp");
+    setBackgroundImage(".extension", "./media/img/extension.webp");
+    setBackgroundImage(".trattamento", "./media/img/beauty.webp");
+    setBackgroundImage(".epilazione", "./media/img/epilazione.webp");
+    setBackgroundImage(".offerta", "./media/img/offerta.webp");
 });

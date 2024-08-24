@@ -11,7 +11,7 @@
     </div>
     <div class="row row-section">
         <div class="col-md-4 div-img">
-            <img data-speed="0.5" class="first-img img-fluid" src="./media/img/nail-blue.avif" alt="">
+            <img data-speed="0.5" class="first-img img-fluid" src="./media/img/nail-blue.webp" alt="">
         </div>
 
         <div data-speed="0.4" class="col-md-4 div-paragraph-2 paragraph">
@@ -20,7 +20,7 @@
                 personalità</p>
         </div>
         <div class="col-md-4 div-img">
-            <img data-speed="0.8" class="first-img img-fluid" src="./media/img/brown girl.avif" alt="">
+            <img data-speed="0.8" class="first-img img-fluid" src="./media/img/brown girl.webp" alt="">
         </div>
     </div>
 
@@ -35,10 +35,10 @@
         </div>
 
         <div class="col-md-4 div-img">
-            <img data-speed="0.8" class="first-img img-fluid mt-5" src="./media/img/person.avif" alt="">
+            <img data-speed="0.8" class="first-img img-fluid mt-5" src="./media/img/person.webp" alt="">
         </div>
         <div class="col-md-4 div-img">
-            <img data-speed="0.5" class="first-img img-fluid mb-3" src="./media/img/flowers.jpg" alt="">
+            <img data-speed="0.5" class="first-img img-fluid mb-3" src="./media/img/flowers.webp" alt="">
         </div>
     </div>
 
@@ -47,11 +47,11 @@
 
 
         <div class="col-md-4 div-img">
-            <img data-speed="0.8" class="first-img img-fluid mt-5" src="./media/img/beauty asian girl.avif"
+            <img data-speed="0.8" class="first-img img-fluid mt-5" src="./media/img/beauty asian girl.webp"
                 alt="">
         </div>
         <div class="col-md-4 div-img">
-            <img data-speed="0.5" class="first-img img-fluid mb-3" src="./media/img/igridient.avif" alt="">
+            <img data-speed="0.5" class="first-img img-fluid mb-3" src="./media/img/igridient.webp" alt="">
         </div>
         <div data-speed="0.7" class="col-md-4 div-paragraph-2 paragraph">
             <h6 class="subtitle-section">Trucco semipermanente</h6>
