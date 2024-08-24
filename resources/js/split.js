@@ -19,14 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
             delay: 1,
             height: 50,
             ease: "power4.out",
-            /* scrollTrigger: {
-                trigger: ".row-hero",
-                start: "top 100%",
-                end: "bottom 50%",
-                scale: 1.2,
-                scrub: 1,
-                markers: true,
-            }, */
         });
     }
 
