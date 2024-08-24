@@ -37,19 +37,8 @@ footer {
     width: 200px;
     text-align: center;
     position: relative;
-    animation: glow 1s infinite alternate;
 }
 
-@keyframes glow {
-    from {
-        box-shadow: 0 0 20px white;
-        border-color: rgb(227, 165, 18);
-    }
-    to {
-        box-shadow: 0 0 20px white;
-        border-color: rgb(240, 188, 203);
-    }
-}
 
 .social-media {
     width: 130px;

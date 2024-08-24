@@ -1,5 +1,4 @@
 <x-layout>
-    {{-- <x-header /> --}}
     <x-hero/>
  <x-chiSiamo />
 <x-servizi />

@@ -10,6 +10,7 @@
 
     <title>Susan Nail</title>
 
+    {{-- ! styling loading pages --}}
     <style>
         #preloader {
             position: fixed;
@@ -18,7 +19,7 @@
             width: 100%;
             height: 100%;
             background: #fffdf7;
-            
+
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -30,7 +31,7 @@
         #loader {
             display: flex;
             align-items: center;
-            
+
         }
 
         #loader span {
@@ -67,7 +68,7 @@
 </head>
 
 <body>
-
+    {{-- ! loading page --}}
     <div id="preloader">
         <div id="progress-text">0%</div>
         <div id="loader">
@@ -77,7 +78,7 @@
         </div>
     </div>
 
-
+{{-- ! slot --}}
     <div id="smooth-wrapper">
         <div id="smooth-content">
             <div class="min-vh-100">
