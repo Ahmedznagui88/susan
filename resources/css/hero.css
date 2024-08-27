@@ -134,26 +134,23 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
-    .container-main {
-        height: 100vh;
-    }
+ 
 
 
     .row-hero {
-        height: 100vh;
         background-image: url(../../public/media/img/spa2.webp);
         background-size: cover;
         background-position: 0px;
     }
 
     .div-header {
-        height: 200px;
+        height: 80px;
         display: flex;
         align-self: flex-start;
     }
 
     .title-header {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .text-header-2 {
@@ -188,13 +185,13 @@ body::-webkit-scrollbar-thumb {
 
     .div-header {
         width: 100vw;
-        height: 500px;
+        height: 100px;
         display: flex;
         justify-content: center;
     }
 
     .title-header {
-        font-size: 120px;
+        font-size: 100px;
     }
 
     .text-header {
@@ -204,6 +201,28 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 1000px) {
+    .container-main {
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .row-main {
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+
+    .div-img-header {
+        background: none;
+    }
+
+    .div-header {
+        width: 100vw;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        
+    }
     .title-header {
         font-size: 160px;
     }
