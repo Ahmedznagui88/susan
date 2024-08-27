@@ -41,8 +41,7 @@
 
 .container-text-header{
     display: flex;
-    height: 6vh;
-    align-items: last baseline;
+    height: 3vh;
    justify-content: center;
 }
 .text-header {
