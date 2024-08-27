@@ -5,7 +5,7 @@ gsap.registerPlugin(SplitText, ScrollTrigger);
 
 document.addEventListener("DOMContentLoaded", function () {
     let split = new SplitText(
-        ".text-header, .title-header, .contact, .scroll",
+        ".title-header, .scroll, .text-header-2",
         { type: "chars" }
     );
     let chars = split.chars;
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     handleMediaQueryChange(mediaQuery);
 
     tl.from(
-        ".circle",
+        ".circle, .instagram",
         {
             opacity: 0,
             autoAlpha: 1,
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
     tl.fromTo(
         chars,
         {
-            yPercent: 50,
+            yPercent: 100,
             autoAlpha: 0,
             opacity: 0,
         },

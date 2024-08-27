@@ -13,12 +13,12 @@
 
 .link-contact {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     justify-content: center;
     width: 400px;
-}
-
-.div-img-header {
-    height: 650px;
+    overflow: hidden;
 }
 
 .div-header {
@@ -26,19 +26,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50vw;
+    height: 13vh;
+    overflow: hidden;
+   
 }
 .title-header {
     font-size: 250px;
     font-family: "La Mango";
     font-style: italic;
     color: rgb(0, 0, 0);
+    
 }
 
+.container-text-header{
+    display: flex;
+    height: 6vh;
+    align-items: last baseline;
+   justify-content: center;
+}
 .text-header {
     font-weight: 100;
-    font-size: 22px;
     font-family: "Gojali";
-    transform-origin: -100px;
+}
+
+.text-header-2 {
+    font-weight: 100;
+    font-size: 4rem;
+    font-family: "Gojali";
+   
 }
 
 .nav-item {
@@ -50,6 +66,7 @@
     align-items: center;
     transition: 0.6s;
     border: solid 0.9px;
+    overflow: hidden;
 }
 
 .nav-item:hover {
@@ -65,6 +82,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
 }
 
@@ -123,7 +141,7 @@ body::-webkit-scrollbar-thumb {
 
     .row-hero {
         height: 100vh;
-        background-image: url(../../public/media/img/spa.webp);
+        background-image: url(../../public/media/img/spa2.webp);
         background-size: cover;
         background-position: 0px;
     }
@@ -138,8 +156,8 @@ body::-webkit-scrollbar-thumb {
         font-size: 60px;
     }
 
-    .text-header {
-        font-size: 16px;
+    .text-header-2 {
+        font-size: 30px;
         text-align: center;
     }
 
@@ -154,7 +172,6 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (min-width: 768px) and (max-width: 999px) {
     .container-main {
-       /*  background-image: url(../../public/media/img/saloon21.png); */
         background-size: 600px;
         background-repeat: no-repeat;
         background-position: center top;

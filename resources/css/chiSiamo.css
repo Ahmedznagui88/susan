@@ -88,11 +88,16 @@
         color: #000000;
     }
 
+    .div-btn-contact{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
     .div-paragraph{
         width: 100vw;
         text-align: center;
         z-index: 2222;
-        overflow: hidden;
         margin: 20px;
     }
 

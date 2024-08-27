@@ -32,13 +32,16 @@
         {{-- !susan nail name --}}
         <div class="col-12 div-header">
             <h1 class="title-header">Susan Nail</h1>
-            <p class="text-header mt-5">Rinnova il tuo look nel nostro salone di bellezza</p>
+        </div>
+
+        <div class="col-12 container-text-header">
+        <p class="text-header-2">Sangio</p>
         </div>
         {{-- ! btn --}}
         <div class="col-12 link-contact">
-            <li class="nav-item">
-                <a class="nav-link active contact" href="#servizi">Prenota ora!</a>
-            </li>
+            <a href="https://www.instagram.com/susan_nail_sangio/" target="_blank">
+                <img class="instagram" src="./media/img/instagram.png" alt="">
+            </a>
         </div>
 
 
