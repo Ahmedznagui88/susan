@@ -19,10 +19,6 @@
             <div class="div-inner-img">
                 <img data-speed="0.2" class="img-who-we-re" src="./media/img/nail.webp" alt="">
             </div>
-{{--             <div class="div-inner-img">
-                <img data-speed="0.1" class="img-who-we-2" src="./media/img/photo-1562048048-86d659689440.webp"
-                    alt="">
-            </div> --}}
         </div>
     </div>
 

@@ -12,15 +12,6 @@ footer {
     padding: 10px;
 }
 
-.where {
-    background-image: url(../../public/media/svg/Vector\ 36.png);
-    color: white;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: 120px;
-    background-color: rgb(248, 239, 237);
-}
-
 .adress {
     font-family: "La Mango";
     display: flex;
@@ -58,13 +49,6 @@ footer {
     border-radius: 20px;
 }
 
-.img-here {
-    position: absolute;
-    top: -500px;
-    /* Aggiungi queste proprietà per l'animazione */
-    animation: rotate 10s linear infinite;
-    z-index: 2222;
-}
 
 @keyframes rotate {
     from {

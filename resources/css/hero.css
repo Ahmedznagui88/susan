@@ -26,13 +26,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vw;
-    height: 13vh;
-    overflow: hidden;
-   
 }
 .title-header {
-    font-size: 250px;
+    font-size: 9rem;
     font-family: "La Mango";
     font-style: italic;
     color: rgb(0, 0, 0);
@@ -41,8 +37,9 @@
 
 .container-text-header{
     display: flex;
-    height: 3vh;
+    height: 7vh;
    justify-content: center;
+   overflow: hidden;
 }
 .text-header {
     font-weight: 100;
@@ -139,21 +136,25 @@ body::-webkit-scrollbar-thumb {
     .row-hero {
         background-image: url(../../public/media/img/spa2.webp);
         background-size: cover;
-        background-position: 0px;
+        background-position: 208px;
     }
 
     .div-header {
         height: 80px;
+        width: 90vw;
         display: flex;
-        align-self: flex-start;
+        align-self: flex-end;
+    }
+    .container-text-header{
+        overflow: hidden;
     }
 
     .title-header {
-        font-size: 50px;
+        font-size: 5rem;
     }
 
     .text-header-2 {
-        font-size: 30px;
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -167,24 +168,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (min-width: 768px) and (max-width: 999px) {
-    .container-main {
-        background-size: 600px;
-        background-repeat: no-repeat;
-        background-position: center top;
-    }
-
-    .row-main {
-        flex-direction: column-reverse;
-        align-items: baseline;
-    }
-
-    .div-img-header {
-        background: none;
+    .row-hero {
+        background-image: url(../../public/media/img/spa2.webp);
+        background-size: cover;
+        background-position: 208px;
     }
 
     .div-header {
         width: 100vw;
-        height: 100px;
         display: flex;
         justify-content: center;
     }
@@ -193,41 +184,14 @@ body::-webkit-scrollbar-thumb {
         font-size: 100px;
     }
 
-    .text-header {
-        font-size: 18px;
-        text-align: center;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    .container-main {
-        background-size: 600px;
-        background-repeat: no-repeat;
-        background-position: center top;
-    }
-
-    .row-main {
-        flex-direction: column-reverse;
-        align-items: baseline;
-    }
-
-    .div-img-header {
-        background: none;
-    }
-
-    .div-header {
-        width: 100vw;
-        height: 120px;
+    .container-text-header{
+        height: 13vh;
         display: flex;
-        justify-content: center;
-        
-    }
-    .title-header {
-        font-size: 160px;
+
     }
 
-    .text-header {
-        font-size: 18px;
-        text-align: center;
+    .text-header-2 {
+        font-size: 4rem;
+
     }
 }

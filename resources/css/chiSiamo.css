@@ -51,32 +51,21 @@
 }
 
 @media screen and (min-width: 200px) and (max-width: 767px) {
-    .section-product-whoWeAre {
-        background-image: url(../../public/media/svg/Group\ 59.png);
-        background-repeat: repeat;
-        background-position: 440px;
-        background-size: 600px;
-        background-image: none;
-    }
-
+   .section-product-whoWeAre{
+    height: 100vh;
+    padding-bottom: 10px;
+   }
     .title-section-product {
         z-index: 2;
         font-family: "La Mango";
         font-weight: 100;
-        font-size: 90px;
+        font-size: 3rem;
         font-style: italic;
     }
 
     .div-outer-img {
         display: flex;
         justify-content: space-around;
-        width: 100%;
-
-    }
-
-    .img-who-we-2 {
-        width: 120px;
-        height: 120px;
     }
 
     .img-who-we-re {
