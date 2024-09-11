@@ -28,8 +28,8 @@
         </div> --}}
         {{-- !susan nail name --}}
         <div class="col-12 div-header">
-            <h1 class="title-header">Susan Nail</h1>
-{{--             <p class="text-header-2">Sangio</p> --}}
+            <h1 class="title-header">Susan</h1>
+            <p class="text-header-2"> <span class="beauty">Beauty</span> studio</p>
         </div>
 
         {{-- ! btn --}}
@@ -37,6 +37,7 @@
             <a href="https://www.instagram.com/susan_nail_sangio/" target="_blank">
                 <img class="instagram" src="./media/img/instagram.png" alt="">
             </a>
+            <small>susan nail sangio</small>
         </div>
 
 

@@ -26,11 +26,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 .title-header {
     font-size: 9rem;
-    font-family: "La Mango";
+    font-family: "Melodrama";
+    font-weight: 100;
     font-style: italic;
     color: rgb(0, 0, 0);
     
@@ -49,9 +49,14 @@
 
 .text-header-2 {
     font-weight: 100;
-    font-size: 4rem;
+    font-size: 1.4rem;
     font-family: "Gojali";
    
+}
+
+.beauty{
+    font-family: 'Pencerio';
+    font-size: 3.4rem;
 }
 
 .nav-item {
@@ -151,11 +156,14 @@ background-image: url(../../public/media/img/Marbel.webp);
     }
 
     .title-header {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
+    .beauty{
+        font-size: 1.4rem;
+    }
     .text-header-2 {
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
     }
 
