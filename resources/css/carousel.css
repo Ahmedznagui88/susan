@@ -79,3 +79,12 @@
         justify-content: space-between;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .row-show-img-categories {
+        display: none;
+    }
+    .row-categories {
+        width: 100vw;
+    }
+}
