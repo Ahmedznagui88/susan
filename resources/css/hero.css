@@ -6,7 +6,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url(../../public/media/img/spa2.avif);
+    background-image: url(../../public/media/img/Marbel.webp);
     background-size: cover;
     background-position-y: -50px;
 }
@@ -26,6 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .title-header {
     font-size: 9rem;
@@ -134,9 +135,9 @@ body::-webkit-scrollbar-thumb {
 
 
     .row-hero {
-        background-image: url(../../public/media/img/spa2.webp);
+background-image: url(../../public/media/img/Marbel.webp);
         background-size: cover;
-        background-position: 208px;
+
     }
 
     .div-header {
@@ -169,9 +170,8 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (min-width: 768px) and (max-width: 999px) {
     .row-hero {
-        background-image: url(../../public/media/img/spa2.webp);
+background-image: url(../../public/media/img/Marbel.webp);
         background-size: cover;
-        background-position: 208px;
     }
 
     .div-header {

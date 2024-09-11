@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function animateSmallScreens() {
-        gsap.from(".row-hero", {
+/*         gsap.from(".row-hero", {
             opacity: 0,
             autoAlpha: 1,
             duration: 1.5,
             delay: 0.5,
             height: 50,
             ease: "power4.out",
-        });
+        }); */
     }
 
     const mediaQuery = window.matchMedia("(max-width: 767px)");

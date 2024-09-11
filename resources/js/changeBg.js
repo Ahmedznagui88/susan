@@ -1,58 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
     const main = document.querySelector(".img-container-category");
-    const overlay = document.querySelector(".overlay");
-
-    let isAnimating = false;
-    let lastDirection = 'left';
-
-    const images = [
-        "./media/img/nail2.webp",
-        "./media/img/pedicure.webp",
-        "./media/img/ricostruzione.webp",
-        "./media/img/person.webp",
-        "./media/img/extension.webp",
-        "./media/img/beauty.webp",
-        "./media/img/epilazione.webp",
-        "./media/img/offerta.webp"
-    ];
-    
-    images.forEach(url => {
-        const img = new Image();
-        img.src = url;
-    });
+    const defaultImage = "./media/img/nail2.webp"; 
+    const defaultColor = "transparent"; // Assicurati di definire defaultColor
+    const offset = { x: 50, y: 50 }; // Offset per mantenere distanza dal mouse
 
     const setBackgroundImage = (selector, imageUrl) => {
         const elements = document.querySelectorAll(selector);
         elements.forEach((element) => {
             element.addEventListener("mouseenter", () => {
-                if (isAnimating) return;
-                isAnimating = true;
-
-                overlay.style.backgroundImage = `url(${imageUrl})`;
-                overlay.style.display = 'block';
-
-                const direction = lastDirection === 'left' ? 'right' : 'left';
-                lastDirection = direction;
-
-                const fromValue = direction === 'left' ? '100%' : '-100%';
-                const toValue = '0%';
-
-                gsap.fromTo(overlay, 
-                    {left: fromValue}, 
-                    {left: toValue, duration: 0.75, ease: "power4.out", onComplete: () => {
-                        main.style.backgroundImage = `url(${imageUrl})`;
-                        overlay.style.display = 'none';
-                        isAnimating = false;
-                    }}
-                );
+                main.style.backgroundImage = `url(${imageUrl})`;
+                main.style.backgroundSize = 'cover'; 
             });
-
             element.addEventListener("mouseleave", () => {
-                if (isAnimating) {
-                    gsap.killTweensOf(overlay);
-                    isAnimating = false;
-                    overlay.style.display = 'none';
-                }
+                main.style.backgroundImage = defaultImage;
+                main.style.backgroundColor = defaultColor;
+                main.style.backgroundSize = "cover";
             });
         });
     };
