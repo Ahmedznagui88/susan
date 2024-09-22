@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
             stagger: 0.1,
             ease: "power1.out",
             display: "block",
-            duration: 2,
+            duration: 1,
         },
         1.2
     );

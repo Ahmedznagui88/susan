@@ -28,8 +28,8 @@
     align-items: center;
 }
 .title-header {
-    font-size: 9rem;
-    font-family: "Melodrama";
+    font-size: 13rem;
+    font-family: "La Mango";
     font-weight: 100;
     font-style: italic;
     color: rgb(0, 0, 0);
@@ -51,7 +51,7 @@
     font-weight: 100;
     font-size: 1.4rem;
     font-family: "Gojali";
-   
+   margin-top: 50px;
 }
 
 .beauty{
