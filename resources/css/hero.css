@@ -11,6 +11,11 @@
     background-position-y: -50px;
 }
 
+.logo{
+    height: 16vh;
+    transition: 0.6s;
+}
+
 .link-contact {
     display: flex;
     flex-direction: column;
@@ -146,7 +151,8 @@ background-image: url(../../public/media/img/Marbel.webp);
     }
 
     .div-header {
-        height: 80px;
+        
+        height: 150px;
         width: 90vw;
         display: flex;
         align-self: flex-end;
@@ -173,6 +179,11 @@ background-image: url(../../public/media/img/Marbel.webp);
 
     .nav-item{
         background: #fffdf7;
+    }
+
+    .logo{
+        height: 44px;
+
     }
 }
 
@@ -201,5 +212,9 @@ background-image: url(../../public/media/img/Marbel.webp);
     .text-header-2 {
         font-size: 4rem;
 
+    }
+
+    .logo{
+        height: 24px;
     }
 }
