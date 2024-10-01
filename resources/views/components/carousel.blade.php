@@ -14,13 +14,13 @@
     <div class="row row-categories">
         <div class="col-12 category manicure">
             <small class="number-category">01</small>
-            <h6 class="single-category">Manicure</h6>
+            <h6 class="single-category">Manicure / Semipermanete</h6>
         </div>
 
         <div class="col-12 category pedicure">
             <small class="number-category">02</small>
             <h6 class="single-category">
-                Pedicure
+                Pedicure / Semipermanete
             </h6>
         </div>
         <div class="col-12 category ricostruzione">
@@ -50,7 +50,7 @@
         <div class="col-12 category epilazione">
             <small class="number-category">07</small>
             <h6 class="single-category">
-                Epilazione
+                Epilazione / Brasilian / Laser
             </h6>
         </div>
         <div class="col-12 category offerta">
